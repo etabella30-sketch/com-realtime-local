@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: sans-serif !important;
+    }
+
+    header {
+      height: 30px;
+      font-size: 13px;
+      padding: 0 12px;
+      background: #737373;
+      color: white;
+      margin: 1rem 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .line {
+      display: flex;
+      font-size: 11px;
+      gap: 10px;
+      align-items: center;
+      height: 34px;
+    }
+
+    .line-no {
+      background: #eeeeee;
+      color: #747474;
+      padding: 0px 10px;
+      min-width: 136px;
+      max-width: 136px;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      gap: 10px;
+      height: 36px;
+    }
+
+    .line-text {
+      color: #2a2929;
+      height: 36px;
+      padding-top: 10px;
+    }
+
+    .highlight {
+      background-color: yellow;
+    }
+
+    .no-timestamp .line-no {
+      min-width: 56px;
+      max-width: 56px;
+      justify-content: end;
+    }
+
+    .no-timestamp .line-text {
+      flex-grow: 1;
+    }
+
+    .page {
+      padding: 60px 60px 40px;
+      position: relative;
+      min-height: 29.7cm;
+    }
+
+    .page-break {
+      page-break-before: always;
+    }
+
+    .container {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      padding: 0 49px 36px 0;
+      height: 29.7cm;
+    }
+
+    .content-wrapper {
+      display: flex;
+      gap: 20px;
+    }
+
+    .sidebar {
+      background-color: #ff3d00;
+      width: 109px;
+      height: 447px;
+    }
+
+    .main-content {
+      display: flex;
+      margin-top: 300px;
+      flex-grow: 1;
+      flex-direction: column;
+      font: 600 10px Open Sans, sans-serif;
+      color: #4f4f4f;
+    }
+
+    .case-name {
+      color: #ff3d00;
+      letter-spacing: -0.6px;
+      font: 30px Open Sans, sans-serif;
+      margin: 0;
+    }
+
+    .document-type {
+      margin-top: 4px;
+      font: 12px/133% Open Sans, sans-serif;
+    }
+
+    .document-info {
+      font: 400 10px/12.5px Open Sans, sans-serif;
+      margin-top: 4px;
+    }
+
+    .document-code {
+      font: 400 10px Open Sans, sans-serif;
+      margin-top: 4px;
+    }
+
+    .spacer {
+      background-color: #fff;
+      margin-top: 4px;
+      height: 13px;
+    }
+
+    .export-info {
+      font: 700 10px/14px Open Sans, sans-serif;
+      margin-top: 4px;
+    }
+
+    .footer {
+      align-self: flex-end;
+      display: flex;
+      margin-top: auto;
+      width: 141px;
+      max-width: 100%;
+      flex-direction: column;
+      font: 400 12px/133% Open Sans, sans-serif;
+      color: #ff3d00;
+    }
+
+    .logo {
+      aspect-ratio: 0.71;
+      object-fit: auto;
+      object-position: center;
+      width: 105px;
+      align-self: center;
+      max-width: 100%;
+    }
+
+    .powered-by {
+      font-family: Open Sans, sans-serif;
+      margin-top: 24px;
+    }
+
+    .pagination {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: 0 65px;
+    }
+
+    .titlepage {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+
+    .titlepage .text-1 {
+      max-width: 50%;
+    }
+
+    .titlepage .text-center {
+      text-align: center;
+    }
+
+    .titlepage p {
+      font-size: 10px;
+      line-height: 2;
+    }
+
+    .text-end {
+      text-align: end;
+    }
+
+    .titlepage .text-start {
+      text-align: start;
+    }
+
+    .titlepage .divider {
+      height: 1px;
+      width: 50%;
+      background-color: #000;
+      margin: 20px auto;
+    }
+
+    .titlepage .msg p:first-child {
+      margin-bottom: 20px;
+    }
+
+    .titlepage .msg {
+      width: 75%;
+      margin: 0 auto;
+      min-height: 116px;
+    }
+
+    .titlepage .sidespace {
+      padding: 0 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+    }
+
+    .maindivider {
+      height: 2px;
+      width: 100%;
+      background-color: #000;
+      margin: 10px auto;
+    }
+
+
+    .page-header {
+      font-size: 10px;
+    }
+
+    .page-header .head-wrap {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .page-header .left {
+      width: 50%;
+    }
+
+    .page-header .right {
+      width: 50%;
+    }
+
+    .betweeen {
+      letter-spacing: 5px;
+    }
+
+    .capitalize {
+      text-transform: uppercase;
+    }
+
+    .transriptby {
+      margin: auto 0 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <div class="content-wrapper flex">
+      <aside class="sidebar"></aside>
+      <section class="main-content">
+        <h1 class="case-name">SD</h1>
+        <p class="document-type">ALPHA DEVELOPER 07</p>
+        <p class="document-info">
+          <span style="font-size: 12px; line-height: 6px"></span>
+        </p>
+        <div class="spacer"></div>
+        <p class="export-info">
+          Exported on: Oct 5, 2024 <br /> By Rajendra Patel <br />
+        </p>
+      </section>
+    </div>
+    <footer class="footer">
+      
+      <p class="powered-by">Powered by eTabella.com</p>
+    </footer>
+  </main>
+  <!-- <div class="page-break"></div> -->
+  <!-- Main Content Placeholder -->
+  <div class="titlepage page page-break">
+    <div class="maindivider"></div>
+    <p class="text-1">case description case description case description case description case description
+    </p>
+    <div class="divider"></div>
+    <div class="sidespace">
+
+
+      <p class="text-start betweeen capitalize">Between</p>
+      <p>
+        <span>case claiment case claiment case claiment case claiment case claimentcase claiment case claiment</span>
+      </p>
+      <p class="text-end">Claimant</p>
+      <p>-&nbsp;&nbsp;and&nbsp;&nbsp;-</p>
+      <p>case res case res case res case res case res case res case res</p>
+      <p class="text-end">Respondent</p>
+      <div class="spacer"></div>
+      <div class="divider"></div>
+      <p>-&nbsp;&nbsp;before&nbsp;&nbsp;- </p>
+      <p>SD
+      </p>
+      <p>Thursday , 03 Oct 2024
+      </p>
+
+      <div class="divider"></div>
+
+      <div class="text-start msg">
+        <p>
+        </p>
+        <p>
+        </p>
+      </div>
+    </div>
+    <p class="text-center transriptby">
+      Transcript produced by lloydmichaux.com<br />
+    </p>
+    <div class="maindivider"></div>
+  </div>
+
+  </main>
+  </div>
+  <div class="page page-break">
+    <div class="page-header" name="page-1" id="page-1">
+      <div class="head-wrap">
+        <div class="left">
+          <p class="text-1">ALPHA DEVELOPER 07
+          </p>
+        </div>
+        <div class="right">
+          <p class="text-end">SD</p>
+          <p class="text-end">03 Oct 2024</p>
+        </div>
+
+        <div class="sidespace">
+        </div>
+      </div>
+    </div>
+    <header>Page No. 1</header> <span class="pagination">SD-1</span>
+    <main class="">
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>1</span>
+          <span>09:13:01</span>
+        </div>
+        <span class="line-text">Test test.</span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>2</span>
+          <span>09:15:18</span>
+        </div>
+        <span class="line-text">Good morning everyone. This is the day 2 of the</span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>3</span>
+          <span>09:15:21</span>
+        </div>
+        <span class="line-text">hearing.</span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>4</span>
+          <span>09:15:22</span>
+        </div>
+        <span class="line-text">Testing mic number 1, testing mic number 2, testing</span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>5</span>
+          <span>09:15:29</span>
+        </div>
+        <span class="line-text">meek number 3, testing mic number 4, testing mic number</span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>6</span>
+          <span>09:15:45</span>
+        </div>
+        <span class="line-text">5, testing mic number 6, testing mic number 7, testing</span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>7</span>
+          <span>09:15:58</span>
+        </div>
+        <span class="line-text">mic number 8</span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>8</span>
+          <span>09:16:01</span>
+        </div>
+        <span class="line-text"></span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>9</span>
+          <span>09:16:01</span>
+        </div>
+        <span class="line-text"></span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>10</span>
+          <span>09:16:01</span>
+        </div>
+        <span class="line-text"></span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>11</span>
+          <span>09:16:02</span>
+        </div>
+        <span class="line-text"></span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>12</span>
+          <span>09:16:02</span>
+        </div>
+        <span class="line-text"></span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>13</span>
+          <span>09:16:03</span>
+        </div>
+        <span class="line-text"></span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>14</span>
+          <span>09:16:03</span>
+        </div>
+        <span class="line-text"></span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>15</span>
+          <span>09:16:04</span>
+        </div>
+        <span class="line-text"></span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>16</span>
+          <span>09:16:07</span>
+        </div>
+        <span class="line-text"></span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>17</span>
+          <span>09:28:07</span>
+        </div>
+        <span class="line-text"></span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>18</span>
+          <span>09:28:07</span>
+        </div>
+        <span class="line-text"></span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>19</span>
+          <span>09:28:08</span>
+        </div>
+        <span class="line-text"></span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>20</span>
+          <span>09:28:08</span>
+        </div>
+        <span class="line-text"></span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>21</span>
+          <span>09:28:11</span>
+        </div>
+        <span class="line-text"></span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>22</span>
+          <span>09:28:13</span>
+        </div>
+        <span class="line-text">(10.01 am)</span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>23</span>
+          <span>10:01:18</span>
+        </div>
+        <span class="line-text">PRESIDENT: Good morning, everyone. This is day 2 of the</span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>24</span>
+          <span>10:01:21</span>
+        </div>
+        <span class="line-text">hearing in case number PCA 2023-45.</span>
+      </div>
+      <div class="line" style="background-color:white">
+        <div class="line-no" style="background-color:#eeeeee">
+          <span>25</span>
+          <span>10:01:26</span>
+        </div>
+        <span class="line-text">Mr Hanke, is everyone who needs to be here from your</span>
+      </div>
+      <div class="page-header">
+        <div class="maindivider"></div>
+        <div class="head-wrap">
+          <div class="left">
+            <p class="text-1">Lloyd Michaux (ask@lloydmichaux.com)
+            <p class="text-1">Asia-Pacific | Middle East | India
+            </p>
+          </div>
+          <div class="right">
+            <p class="text-end">Daily Transcript Service</p>
+          </div>
+          <div class="sidespace">
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+  </div>
+</body>
+
+</html>
+</body>
+
+</html>

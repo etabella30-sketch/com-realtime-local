@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: sans-serif !important;
+        }
+
+
+        body {
+            background-color: #fff;
+        }
+
+        .page-break {
+            page-break-before: always;
+        }
+
+        .page {
+            padding: 60px 60px 40px;
+            position: relative;
+            min-height: 1340px;
+            height: 1340px;
+            min-height: 1340px;
+        }
+
+        .container {
+            width: 100%;
+            padding: 0 49px 36px 0;
+            /* min-height: 29.7cm;
+            height: 29.7cm; */
+        }
+
+        .content-table {
+            width: 100%;
+        }
+
+        .sidebar {
+            background-color: #ff3d00;
+            width: 109px;
+            height: 447px;
+        }
+
+        .main-content {
+            padding-top: 300px;
+            padding-left: 20px;
+            vertical-align: top;
+            font: 600 10px Open Sans, sans-serif;
+            color: #4f4f4f;
+        }
+
+        .case-name {
+            color: #ff3d00;
+            letter-spacing: -0.6px;
+            font: 30px Open Sans, sans-serif;
+            margin: 0;
+        }
+
+        .document-type {
+            margin-top: 4px;
+            font: 12px/133% Open Sans, sans-serif;
+        }
+
+        .document-info {
+            font: 400 10px/12.5px Open Sans, sans-serif;
+            margin-top: 4px;
+        }
+
+        .spacer {
+            background-color: #fff;
+            margin-top: 4px;
+            height: 13px;
+        }
+
+        .export-info {
+            font: 700 10px/14px Open Sans, sans-serif;
+            margin-top: 4px;
+        }
+
+        .footer {
+            padding-top: 600px;
+            width: 141px;
+            font: 400 12px/133% Open Sans, sans-serif;
+            color: #ff3d00;
+            float: right;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            width: 105px;
+            max-width: 100%;
+        }
+
+        .powered-by {
+            font-family: Open Sans, sans-serif;
+            margin-top: 24px;
+            text-align: center;
+        }
+
+        .titlepage {
+            position: relative;
+            min-height: 1240px;
+            /* 1340px - 60px top padding - 40px bottom padding */
+        }
+
+        .titlepage .text-1 {
+            max-width: 50%;
+            margin-bottom: 20px;
+        }
+
+        .titlepage .text-center {
+            text-align: center;
+        }
+
+        .titlepage p {
+            font-size: 14px;
+            line-height: 2;
+            margin-bottom: 20px;
+        }
+
+        .text-end {
+            text-align: end;
+        }
+
+        .titlepage .text-start {
+            text-align: start;
+        }
+
+        .titlepage .divider {
+            height: 1px;
+            width: 50%;
+            background-color: #000;
+            margin: 20px auto;
+        }
+
+        .titlepage .msg p:first-child {
+            margin-bottom: 20px;
+        }
+
+        .titlepage .msg {
+            width: 75%;
+            margin: 0 auto;
+            min-height: 116px;
+        }
+
+        .titlepage .sidespace {
+            padding: 0 50px;
+            text-align: center;
+        }
+
+        .titlepage .sidespace>* {
+            margin-bottom: 20px;
+        }
+
+        .titlepage .transriptby {
+            position: absolute;
+            bottom: 80px;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+
+        .titlepage .maindivider {
+            position: absolute;
+            bottom: 60px;
+            left: 60px;
+            right: 60px;
+            height: 1px;
+            background-color: #000;
+            width: 90%;
+        }
+
+
+        .container-inline-block {
+            font-size: 0;
+            /* Remove space between inline-block elements */
+        }
+
+        .container-inline-block .box {
+            display: inline-block;
+            width: 25%;
+            font-size: 16px;
+            /* Reset font size for content */
+            vertical-align: top;
+        }
+
+        .anothead {
+            padding: 10px 24px;
+            background-color: #4f4f4f;
+            color: #fff;
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        .data-header {
+            padding: 10px 24px;
+            background-color: #6b6b6b;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .heading {
+            padding: 10px 24px;
+            color: #4f4f4f;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+
+        .p-0 {
+            padding: 0 !important;
+        }
+
+        .p-3 {
+            padding: 20px !important;
+        }
+
+        .mb-1 {
+            margin-bottom: 5px;
+        }
+
+        .mb-2 {
+            margin-bottom: 10px;
+        }
+
+        .mb-3 {
+            margin-bottom: 20px;
+        }
+
+        .tabbody .pageno {
+            text-decoration: underline;
+            color: #ff3c00;
+            cursor: pointer;
+        }
+
+        .tabhead .pageno,
+        .tabbody .pageno {
+            width: 8%;
+        }
+
+        .tabhead .source,
+        .tabbody .source {
+            width: 30%;
+        }
+
+        .tabhead .note,
+        .tabbody .note {
+            padding-left: 10px;
+            padding-right: 5px;
+            width: 27%;
+        }
+
+        .tabhea .issue,
+        .tabbody .issue {
+            width: 33%;
+        }
+
+        .tabbody div {
+            vertical-align: top;
+        }
+
+        .tabhead div,
+        .tabbody div {
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 500;
+            color: #4f4f4f;
+            line-height: 1.5;
+            letter-spacing: 0.2px;
+        }
+
+        .tabbody {
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .tabhead {
+            background-color: #c4c4c4;
+            border-radius: 20px;
+        }
+
+        .tabhead,
+        .tabbody {
+            padding: 5px 10px 7px;
+        }
+
+        .issuewrap {
+            width: 100%;
+            margin-bottom: 3px;
+        }
+
+        .issuewrap .impact {
+            width: 10%;
+        }
+
+        .issuewrap .rel {
+            width: 25%;
+        }
+
+
+        .issuewrap .name .text {
+            padding-left: 5px;
+        }
+
+        .issuewrap .name {
+            width: 60%;
+        }
+
+        .tabhead .source,
+        .tabbody .source {
+            width: 30%;
+        }
+
+        .issuebar {
+            padding: 2px 2px;
+            border-radius: 10px;
+            background: red;
+        }
+
+        .relspn {
+            padding: 2px 5px;
+            background: white;
+            border-radius: 10px;
+        }
+
+
+        .line-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .line-no {
+            background: #eeeeee;
+            color: #747474;
+            padding: 0 10px;
+            width: 136px;
+            font-size: 12px;
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .line-text {
+            color: #2a2929;
+            padding: 1px 10px;
+            font-size: 12px;
+            height: 42px;
+        }
+
+        .highlight {
+            background-color: yellow;
+        }
+
+        .page-header {
+            font-size: 10px;
+            width: 100%;
+        }
+
+        .page-header td {
+            vertical-align: top;
+            padding-bottom: 20px;
+        }
+
+        .head-left {
+            width: 50%;
+        }
+
+        .head-right {
+            width: 50%;
+            text-align: right;
+        }
+
+        .maindivider {
+            height: 2px;
+            width: 100%;
+            background-color: #000;
+            margin: 10px auto;
+        }
+
+        .text-end {
+            text-align: end;
+        }
+
+        .data-footer {
+            position: absolute;
+            bottom: -60px;
+            left: 60px;
+            width: 100%;
+        }
+
+        .pagination {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 0 65px;
+        }
+
+        .line-no span:first-child {
+            display: inline-block;
+            width: 45%;
+            margin-right: 5%;
+        }
+
+        .line-no span:nth-child(2) {
+            display: inline-block;
+            width: 50%;
+            text-align: start;
+        }
+
+        .document-type {
+            font-size: 21px !important;
+        }
+
+        .export-info {
+            font-size: 16px !important;
+            line-height: 1.5 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <main class="container">
+        <div class="content-wrapper flex">
+            <aside class="sidebar"></aside>
+            <section class="main-content conver-content"> </section>
+        </div>
+        <footer class="footer">
+            <img loading="lazy"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA1IiBoZWlnaHQ9IjE0OCIgdmlld0JveD0iMCAwIDEwNSAxNDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0yLjg1NDc1IDExLjQ2NEMyLjc2NzYgMTQuODUyOCA1LjEwNjI2IDE3LjExOTMgOC4yMDAyNiAxNy4xMTkzQzEwLjI3NzUgMTcuMTE5MyAxMS45NTUyIDE1Ljg3MzEgMTIuOTA2NiAxNC4wNzMxTDE0LjAwMzMgMTQuNzE0NEMxMi43OTA0IDE3LjAzMTkgMTAuNjU1MSAxOC4zMzY0IDguMDI1OTQgMTguMzM2NEM0LjA2NzY1IDE4LjMzNjQgMS41NTQ2OSAxNS4xMTUyIDEuNTU0NjkgMTEuMzI1NkMxLjU1NDY5IDcuNTg2OTQgNC4xMjU3NiA0LjM3MzA1IDguMDI1OTQgNC4zNzMwNUMxMi4wNzE0IDQuMzczMDUgMTQuNDY4MSA3LjYxNjA5IDE0LjQzOTEgMTEuNDcxM0gyLjg1NDc1VjExLjQ2NFpNMTMuMTM5IDEwLjI0N0MxMi44MTk1IDcuNzgzNzIgMTAuODAwNCA1LjU4MjgyIDguMDU0OTkgNS41ODI4MkM1LjMzODY3IDUuNTgyODIgMy4wODcxNyA3LjcyNTQxIDIuODU0NzUgMTAuMjQ3SDEzLjEzOVoiIGZpbGw9IiM2NzZDNzIiLz4KPHBhdGggZD0iTTIxLjE5MzEgMTcuOTQyNUgxOS44MDU5VjEuMzA0NUgxNS42MTUyVjBIMjUuMzc2NlYxLjMwNDVIMjEuMTg1OVYxNy45NDI1SDIxLjE5MzFaIiBmaWxsPSIjNjc2QzcyIi8+CjxwYXRoIGQ9Ik0zOS42OTI3IDE3Ljk0MjNIMzguMzkyN1YxNS41MzczSDM4LjMzNDZDMzcuMzU0MSAxNy4yNDk5IDM1LjIxODggMTguMjMzOCAzMy4yNTA1IDE4LjIzMzhDMjkuMjA1MSAxOC4yMzM4IDI2LjY2MzEgMTUuMDc4MiAyNi42NjMxIDExLjE1NzRDMjYuNjYzMSA3LjI0Mzg0IDI5LjE3NiA0LjI1NTg2IDMzLjE5MjQgNC4yNTU4NkMzNS4yNDA2IDQuMjU1ODYgMzcuMjA4OCA1LjE4MTQxIDM4LjMzNDYgNi44NjQ4OEgzOC4zOTI3VjQuNTQ3MzdIMzkuNjkyN1YxNy45NDIzWk0yNy45NjMyIDExLjE1NzRDMjcuOTYzMiAxNC4yMzI4IDI5Ljk4MjIgMTcuMDA5NCAzMy4yMjE1IDE3LjAwOTRDMzYuNjM1MSAxNy4wMDk0IDM4LjQ3OTggMTQuMjI1NSAzOC40Nzk4IDExLjAxMTZDMzguNDc5OCA3LjkxNDMyIDM2LjM3MzYgNS40NzI5MSAzMy4xMzQzIDUuNDcyOTFDMzAuMDY5NCA1LjQ4MDIgMjcuOTYzMiA4LjI2NDEzIDI3Ljk2MzIgMTEuMTU3NFoiIGZpbGw9IiM2NzZDNzIiLz4KPHBhdGggZD0iTTQ1LjI1NTkgMEg0Ni41NTU5VjYuODcyMzVINDYuNjE0QzQ3LjczOTggNS4xODg4OCA0OS43MDggNC4yNjMzMyA1MS43NTYyIDQuMjYzMzNDNTUuNzQzNSA0LjI2MzMzIDU4LjI4NTUgNy4yNTEzMSA1OC4yODU1IDExLjE2NDhDNTguMjg1NSAxNS4wNzg0IDU1Ljc0MzUgMTguMjQxMyA1MS42OTgxIDE4LjI0MTNDNDkuNzI5OCAxOC4yNDEzIDQ3LjU5NDUgMTcuMjU3NCA0Ni42MTQgMTUuNTQ0OEg0Ni41NTU5VjE3Ljk0OTdINDUuMjU1OVYwWk01Ni45NzgyIDExLjE1NzZDNTYuOTc4MiA4LjIyNzg4IDU0Ljg3MiA1LjQ3MzEgNTEuNzc4IDUuNDczMUM0OC4zOTM0IDUuNDczMSA0Ni40NjE1IDcuOTk0NjYgNDYuNDYxNSAxMS4xODY3QzQ2LjQ2MTUgMTQuMzIwNCA0OC40MjI1IDE3LjAwOTYgNTEuNzE5OCAxNy4wMDk2QzU0Ljk4ODEgMTcuMDE2OSA1Ni45NzgyIDE0LjIzMyA1Ni45NzgyIDExLjE1NzZaIiBmaWxsPSIjNjc2QzcyIi8+CjxwYXRoIGQ9Ik02My4wNTc5IDExLjM2MkM2Mi45NzA3IDE0Ljc1MDggNjUuMzA5NCAxNy4wMTcyIDY4LjQwMzQgMTcuMDE3MkM3MC40ODA2IDE3LjAxNzIgNzIuMTU4MyAxNS43NzEgNzMuMTA5NyAxMy45NzFMNzQuMjA2NCAxNC42MTIzQzcyLjk5MzUgMTYuOTI5OCA3MC44NTgyIDE4LjIzNDMgNjguMjI5MSAxOC4yMzQzQzY0LjI3MDggMTguMjM0MyA2MS43NTc4IDE1LjAyMDQgNjEuNzU3OCAxMS4yMjM1QzYxLjc1NzggNy40ODQ4NiA2NC4zMjg5IDQuMjYzNjcgNjguMjI5MSA0LjI2MzY3QzcyLjI3NDUgNC4yNjM2NyA3NC42NzEyIDcuNTA2NzMgNzQuNjQyMiAxMS4zNjJINjMuMDU3OVpNNzMuMzQyMiAxMC4xNDQ5QzczLjAyMjYgNy42ODE2NCA3MS4wMDM1IDUuNDgwNzMgNjguMjU4MSA1LjQ4MDczQzY1LjU0MTggNS40ODA3MyA2My4yOTAzIDcuNjIzMzMgNjMuMDU3OSAxMC4xNDQ5SDczLjM0MjJaIiBmaWxsPSIjNjc2QzcyIi8+CjxwYXRoIGQ9Ik04MC4wMzczIDE3Ljk0MjVINzguNzM3M1YwSDgwLjAzNzNWMTcuOTQyNVoiIGZpbGw9IiM2NzZDNzIiLz4KPHBhdGggZD0iTTg2LjMzNTIgMTcuOTQyNUg4NS4wMzUyVjBIODYuMzM1MlYxNy45NDI1WiIgZmlsbD0iIzY3NkM3MiIvPgo8cGF0aCBkPSJNMTAzLjQ0NiAxNy45NDIzSDEwMi4xNDZWMTUuNTM3M0gxMDIuMDg4QzEwMS4xMDcgMTcuMjQ5OSA5OC45NzE3IDE4LjIzMzggOTcuMDAzNSAxOC4yMzM4QzkyLjk1OCAxOC4yMzM4IDkwLjQxNiAxNS4wNzgyIDkwLjQxNiAxMS4xNTc0QzkwLjQxNiA3LjI0Mzg0IDkyLjkyOSA0LjI1NTg2IDk2Ljk0NTQgNC4yNTU4NkM5OC45OTM1IDQuMjU1ODYgMTAwLjk2MiA1LjE4MTQxIDEwMi4wODggNi44NjQ4OEgxMDIuMTQ2VjQuNTQ3MzdIMTAzLjQ0NlYxNy45NDIzWk05MS43MTYxIDExLjE1NzRDOTEuNzE2MSAxNC4yMzI4IDkzLjc0MjQgMTcuMDA5NCA5Ni45NzQ0IDE3LjAwOTRDMTAwLjM4OCAxNy4wMDk0IDEwMi4yMzMgMTQuMjI1NSAxMDIuMjMzIDExLjAxMTZDMTAyLjIzMyA3LjkxNDMyIDEwMC4xMjcgNS40NzI5MSA5Ni44ODczIDUuNDcyOTFDOTMuODIyMyA1LjQ4MDIgOTEuNzE2MSA4LjI2NDEzIDkxLjcxNjEgMTEuMTU3NFoiIGZpbGw9IiM2NzZDNzIiLz4KPHBhdGggZD0iTTUyLjUwMzUgNTEuNTgyMkMzMi40MjE2IDM2LjUzMyAwIDM5LjIwMDMgMCAzOS4yMDAzQzAgMzkuMjAwMyAwIDM5LjIwMDMgMCAxMTguNTg2QzMyLjkwMSAxMTYuNCA1Mi41MDM1IDEzMS42OTcgNTIuNTAzNSAxMzEuNjk3QzUyLjUwMzUgMTMxLjY5NyA3Mi4wOTg4IDExNi40IDEwNSAxMTguNTg2QzEwNSAzOS4yMDAzIDEwNSAzOS4yMDAzIDEwNSAzOS4yMDAzQzEwNSAzOS4yMDAzIDcyLjU3ODIgMzYuNTMzIDUyLjUwMzUgNTEuNTgyMlpNNDUuMDM3MyAxMTQuMzA4QzMxLjU1NzMgMTA0LjE2MyAxMC4xMzkgMTA1Ljg1NCAxMC4xMzkgMTA1Ljg1NFY1Mi4yNDU0QzM4LjUzNyA1Mi45NjY5IDQ1LjAzNzMgNjIuMTQ5NCA0NS4wMzczIDYyLjE0OTRDNDUuMDM3MyA2Mi4xNDk0IDQ1LjAzNzMgNzEuODA1NyA0NS4wMzczIDExNC4zMDhaTTk0Ljg2MDggMTA1Ljg1NEM5NC44NjA4IDEwNS44NTQgNzMuNDQyNSAxMDQuMTYzIDU5Ljk2MjUgMTE0LjMwOEM1OS45NjI1IDcxLjgwNTcgNTkuOTYyNSA2Mi4xNDIxIDU5Ljk2MjUgNjIuMTQyMUM1OS45NjI1IDYyLjE0MjEgNjYuNDYyOCA1Mi45NjY4IDk0Ljg2MDggNTIuMjM4MVYxMDUuODU0WiIgZmlsbD0iI0ZGM0QwMCIvPgo8cGF0aCBkPSJNMCAxNDQuNjkxQzAgMTQyLjg2MiAxLjQ3NDM4IDE0MS4zODMgMy4yOTczNiAxNDEuMzgzQzUuMTIwMzUgMTQxLjM4MyA2LjU5NDcxIDE0Mi44NjIgNi41OTQ3MSAxNDQuNjkxQzYuNTk0NzEgMTQ2LjUyMSA1LjEyMDM1IDE0OCAzLjI5NzM2IDE0OEMxLjQ3NDM4IDE0OCAwIDE0Ni41MjEgMCAxNDQuNjkxWiIgZmlsbD0iI0ZGM0QwMCIvPgo8cGF0aCBkPSJNMzIuNzk5OCAxNDQuNjkxQzMyLjc5OTggMTQyLjg2MiAzNC4yNzQyIDE0MS4zODMgMzYuMDk3MSAxNDEuMzgzQzM3LjkyMDEgMTQxLjM4MyAzOS4zOTQ1IDE0Mi44NjIgMzkuMzk0NSAxNDQuNjkxQzM5LjM5NDUgMTQ2LjUyMSAzNy45MjAxIDE0OCAzNi4wOTcxIDE0OEMzNC4yODE0IDE0OCAzMi43OTk4IDE0Ni41MjEgMzIuNzk5OCAxNDQuNjkxWiIgZmlsbD0iI0ZGM0QwMCIvPgo8cGF0aCBkPSJNNjUuNjA2NCAxNDQuNjkxQzY1LjYwNjQgMTQyLjg2MiA2Ny4wODA4IDE0MS4zODMgNjguOTAzOCAxNDEuMzgzQzcwLjcyNjggMTQxLjM4MyA3Mi4yMDEyIDE0Mi44NjIgNzIuMjAxMiAxNDQuNjkxQzcyLjIwMTIgMTQ2LjUyMSA3MC43MjY4IDE0OCA2OC45MDM4IDE0OEM2Ny4wODA4IDE0OCA2NS42MDY0IDE0Ni41MjEgNjUuNjA2NCAxNDQuNjkxWiIgZmlsbD0iI0ZGM0QwMCIvPgo8cGF0aCBkPSJNOTguNDA1MyAxNDQuNjkxQzk4LjQwNTMgMTQyLjg2MiA5OS44Nzk2IDE0MS4zODMgMTAxLjcwMyAxNDEuMzgzQzEwMy41MjYgMTQxLjM4MyAxMDUgMTQyLjg2MiAxMDUgMTQ0LjY5MUMxMDUgMTQ2LjUyMSAxMDMuNTI2IDE0OCAxMDEuNzAzIDE0OEM5OS44ODY5IDE0OCA5OC40MDUzIDE0Ni41MjEgOTguNDA1MyAxNDQuNjkxWiIgZmlsbD0iI0ZGM0QwMCIvPgo8L3N2Zz4K"
+                class="logo" alt="eTabella logo" />
+            <p class="powered-by">Powered by eTabella.com</p>
+        </footer>
+    </main> -->
+
+
+    <table class="container">
+        <tr>
+            <td>
+                <table class="content-table">
+                    <tr>
+                        <td class="sidebar"></td>
+                        <td class="main-content">
+              <h1 class="case-name">FD</h1>
+              <p class="document-type">MIPL @6263 CASEVIEW</p>
+              <p class="document-info">
+                <span style="font-size: 12px; line-height: 6px"></span>
+              </p>
+              <div class="spacer"></div>
+              <p class="export-info">
+                Exported on: Nov 8, 2024 <br /> By etabella  <br>
+              </p>
+            </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="footer">
+                    <img loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/7e48a33acb329eae58739c8cf3f6e9930036d154e2ba6d2090c965edf5e5d129?apiKey=4da8a55b5b594231a69fd5cda35e0ae4&"
+                        class="logo" alt="eTabella logo">
+                    <p class="powered-by">Powered by eTabella.com</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <!-- <div class="page-break"></div> -->
+    <!-- Main Content Placeholder -->
+    <div class="titlepage page page-break">
+    <div class="maindivider"></div>
+    <p class="text-1">er
+    </p>
+    <div class="divider"></div>
+    <div class="sidespace">
+
+
+      <p class="text-start betweeen capitalize">Between</p>
+      <p>
+        <span>ert</span>
+      </p>
+      <p class="text-end">Claimant</p>
+      <p>-&nbsp;&nbsp;and&nbsp;&nbsp;-</p>
+      <p>ert</p>
+      <p class="text-end">Respondent</p>
+      <div class="spacer"></div>
+      <div class="divider"></div>
+      <p>-&nbsp;&nbsp;before&nbsp;&nbsp;- </p>
+      <p>FD
+      </p>
+      <p>Friday, 08 Nov 2024
+      </p>
+
+      <div class="divider"></div>
+
+      <div class="text-start msg">
+        <p>ert
+        </p>
+        <p>er
+        </p>
+      </div>
+    </div>
+    <p class="text-center transriptby">
+      Transcript produced by lloydmichaux.com<br />
+    </p>
+    <div class="maindivider"></div>
+  </div>
+
+        <div class="page page-break">
+
+        <table class="page-header" name="page-1" id="page-1">
+          <tr>
+            <td class="head-left">
+              <p>MIPL @6263 CASEVIEW</p>
+            </td>
+            <td class="head-right">
+             <p class="text-end">FD</p>
+             <p class="text-end">08 Nov 2024</p>
+            </td>
+          </tr>
+        </table>
+        <header class="data-header">Page No. 1</header><span class="pagination">FD-1</span>    <table class="line-table">     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>1</span>
+                                    <span>08:40:52:17</span> 
+                                   </td>
+                                   <td class="line-text">mental evaluation and testing until Carly is released</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>2</span>
+                                    <span>08:40:54:05</span> 
+                                   </td>
+                                   <td class="line-text">from jail.  That's not going to be necessarily true.</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>3</span>
+                                    <span>08:40:55:02</span> 
+                                   </td>
+                                   <td class="line-text">So here is the way we can do that, and I understand</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>4</span>
+                                    <span>08:40:56:14</span> 
+                                   </td>
+                                   <td class="line-text">that that's one of the concerns and it's certainly</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>5</span>
+                                    <span>08:40:57:26</span> 
+                                   </td>
+                                   <td class="line-text">a concern, but we not two address what you said first</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>6</span>
+                                    <span>08:40:58:29</span> 
+                                   </td>
+                                   <td class="line-text">and I'm going to come back to the hospital.  She can be</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>7</span>
+                                    <span>08:41:00:05</span> 
+                                   </td>
+                                   <td class="line-text">either evaluated in the jail or if your psychiatrist or</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>8</span>
+                                    <span>08:41:01:20</span> 
+                                   </td>
+                                   <td class="line-text">psychologist beliefs that she needs to come to his</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>9</span>
+                                    <span>08:41:02:23</span> 
+                                   </td>
+                                   <td class="line-text">office, she can be transported by the court staff and</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>10</span>
+                                    <span>08:41:03:26</span> 
+                                   </td>
+                                   <td class="line-text">deputy to his office for any evaluations.</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>11</span>
+                                    <span>08:41:04:26</span> 
+                                   </td>
+                                   <td class="line-text">So her detention or incarceration will not prevent</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>12</span>
+                                    <span>08:41:06:08</span> 
+                                   </td>
+                                   <td class="line-text">her from being evaluated.  So if you're sincere about</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>13</span>
+                                    <span>08:41:07:17</span> 
+                                   </td>
+                                   <td class="line-text">wanting her evaluated by someone of your.</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>14</span>
+                                    <span>08:41:08:23</span> 
+                                   </td>
+                                   <td class="line-text">CHAIRMAN:  Then you need to make yourself available for</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>15</span>
+                                    <span>08:41:09:26</span> 
+                                   </td>
+                                   <td class="line-text">that, because as they say, defence counsel to proffer</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>16</span>
+                                    <span>08:41:10:29</span> 
+                                   </td>
+                                   <td class="line-text">I will prepare and furnish to the examining mental</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>17</span>
+                                    <span>08:41:12:08</span> 
+                                   </td>
+                                   <td class="line-text">health expert the following.</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>18</span>
+                                    <span>08:41:12:20</span> 
+                                   </td>
+                                   <td class="line-text">Now I understand you haven't had a chance and</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>19</span>
+                                    <span>08:41:13:26</span> 
+                                   </td>
+                                   <td class="line-text">I understand you don't have a report, but there are</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>20</span>
+                                    <span>08:41:14:19</span> 
+                                   </td>
+                                   <td class="line-text">Test test test they are unable to complete their</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>21</span>
+                                    <span>08:41:14:23</span> 
+                                   </td>
+                                   <td class="line-text">other things there that you can provide to the mental</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>22</span>
+                                    <span>08:41:15:29</span> 
+                                   </td>
+                                   <td class="line-text">health facility at Mississippi state hospital and then</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>23</span>
+                                    <span>08:41:17:05</span> 
+                                   </td>
+                                   <td class="line-text">once you do that, you're required by ^^ while you</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>24</span>
+                                    <span>08:41:19:07</span> 
+                                   </td>
+                                   <td class="line-text">certainly have a right to have a mental evaluation done,</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>25</span>
+                                    <span>08:41:22:18</span> 
+                                   </td>
+                                   <td class="line-text">the state of Mississippi has a right to have the state</td>
+                                 </tr></table>
+                       <table class="page-header data-footer ">
+                         <tr>
+                           <td colspan="2">
+                             <div class="maindivider"></div>
+                           </td>
+                         </tr>
+                         <tr>
+                           <td class="head-left">
+                             <p>Lloyd Michaux (ask@lloydmichaux.com)</p>
+                             <p>Asia-Pacific | Middle East | India</p>
+                           </td>
+                           <td class="head-right">
+                             <p class="text-end">Daily Transcript Service</p>
+                           </td>
+                         </tr>
+                       </table>
+                      </div>
+        <div class="page page-break">
+
+        <table class="page-header" name="page-2" id="page-2">
+          <tr>
+            <td class="head-left">
+              <p>MIPL @6263 CASEVIEW</p>
+            </td>
+            <td class="head-right">
+             <p class="text-end">FD</p>
+             <p class="text-end">08 Nov 2024</p>
+            </td>
+          </tr>
+        </table>
+        <header class="data-header">Page No. 2</header><span class="pagination">FD-2</span>    <table class="line-table">     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>1</span>
+                                    <span>08:41:25:18</span> 
+                                   </td>
+                                   <td class="line-text">hospital perform one as well and I'm not going to allow</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>2</span>
+                                    <span>08:41:28:05</span> 
+                                   </td>
+                                   <td class="line-text">you to obstruct that process, I'm not accusing you of</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>3</span>
+                                    <span>08:41:31:27</span> 
+                                   </td>
+                                   <td class="line-text">obstruction, I'll just telling you right now we have</td>
+                                 </tr>     <tr style="background:white">
+                                   <td class="line-no" style="background:#eeeeee">
+                                     <span>4</span>
+                                    <span>08:41:34:13</span> 
+                                   </td>
+                                   <td class="line-text">non-compliance with my orders.</td>
+                                 </tr></table>
+                       <table class="page-header data-footer ">
+                         <tr>
+                           <td colspan="2">
+                             <div class="maindivider"></div>
+                           </td>
+                         </tr>
+                         <tr>
+                           <td class="head-left">
+                             <p>Lloyd Michaux (ask@lloydmichaux.com)</p>
+                             <p>Asia-Pacific | Middle East | India</p>
+                           </td>
+                           <td class="head-right">
+                             <p class="text-end">Daily Transcript Service</p>
+                           </td>
+                         </tr>
+                       </table>
+                      </div></body></html>
+</body>
+
+</html>
