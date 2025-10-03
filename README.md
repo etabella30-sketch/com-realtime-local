@@ -74,36 +74,42 @@ The build process uses the NestJS CLI to transpile and bundle your application.
 ### 2. Deploy Build Files
 After the build completes successfully:
 
-1. Locate the compiled output file:
+1. Locate the compiled output file at:
    ```
    dist/apps/realtime/main.js
    ```
 
-2. Copy the `main.js` file to your destination server:
+2. Copy the `main.js` file to:
+   ```
+   /production/main.js
+   ```
+
+3. **Prerequisites before running:**
+   - Ensure Angular build is present in `/production/public/`
+   - Install Redis using the provided `redis.msi` installer
+   - Install Python and its dependencies:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+4. **Configure Environment Settings:**
    
-   **Linux/macOS:**
-   ```bash
-   cp dist/apps/realtime/main.js /path/to/destination/
+   Edit the environment configuration file:
    ```
-
-   **Windows:**
-   ```cmd
-   copy dist\apps\realtime\main.js \path\to\destination\
+   /production/.env.production
    ```
+   
+   Update the server IP and ports according to your deployment environment:
+   - **Local:** For local development/testing
+   - **Tech:** For technical/staging environment
+   - **Com:** For production/commercial environment
+   
+   **Important:** Make sure to configure the correct IP addresses and port numbers before running the application.
 
-3. **Important:** Also copy the `node_modules` folder or run `npm install --production` on the destination server to ensure all runtime dependencies are available.
-
-### 3. Running in Production
-On your destination server, run the application:
-
-```bash
-node main.js
-```
-
-Or use a process manager like PM2 for better reliability:
-```bash
-pm2 start main.js --name realtime-app
-```
+5. Run the application by executing:
+   ```
+   run.bat
+   ```
 
 ---
 

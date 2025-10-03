@@ -1,0 +1,6 @@
+hypercorn
+rapidfuzz
+wordninja
+regex
+fuzzysearch
+Flask>=2.0.0
