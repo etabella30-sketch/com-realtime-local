@@ -1,0 +1,3803 @@
+[
+    {
+        "msg": 1,
+        "page": 1,
+        "data": [
+            {
+                "time": "13:04:32",
+                "lineIndex": 1,
+                "lines": [
+                    "    \t\t\tP R O C E E D I N G S"
+                ]
+            },
+            {
+                "time": "13:06:15",
+                "lineIndex": 2,
+                "lines": [
+                    "     CHAIRMAN:  We'll explain that in a couple of minutes."
+                ]
+            },
+            {
+                "time": "13:06:19",
+                "lineIndex": 3,
+                "lines": [
+                    "        Then put into a three dimensional grid, if you will."
+                ]
+            },
+            {
+                "time": "13:06:37",
+                "lineIndex": 4,
+                "lines": [
+                    "        100 metres by 100 metres, so it's about the size of"
+                ]
+            },
+            {
+                "time": "13:06:41",
+                "lineIndex": 5,
+                "lines": [
+                    "        four of these ballrooms put together and it's about 2"
+                ]
+            },
+            {
+                "time": "13:06:45",
+                "lineIndex": 6,
+                "lines": [
+                    "        metres tall, so it's about my height I guess, just to"
+                ]
+            },
+            {
+                "time": "13:06:47",
+                "lineIndex": 7,
+                "lines": [
+                    "        get a sense and our model has I think eight and a half"
+                ]
+            },
+            {
+                "time": "13:06:53",
+                "lineIndex": 8,
+                "lines": [
+                    "        so you can imagine they're quite big, but it's all"
+                ]
+            },
+            {
+                "time": "13:06:55",
+                "lineIndex": 9,
+                "lines": [
+                    "        digital, right?  It's a digital representation on"
+                ]
+            },
+            {
+                "time": "13:06:59",
+                "lineIndex": 10,
+                "lines": [
+                    "        a computer."
+                ]
+            },
+            {
+                "time": "13:07:03",
+                "lineIndex": 11,
+                "lines": [
+                    "            Just to make a quick point here is so this is from"
+                ]
+            },
+            {
+                "time": "13:07:10",
+                "lineIndex": 12,
+                "lines": [
+                    "        our example and because we know this and we have the"
+                ]
+            },
+            {
+                "time": "13:07:14",
+                "lineIndex": 13,
+                "lines": [
+                    "        data available, this shows a well and the point I want"
+                ]
+            },
+            {
+                "time": "13:07:17",
+                "lineIndex": 14,
+                "lines": [
+                    "        to make clear is that a model starts out empty, so"
+                ]
+            },
+            {
+                "time": "13:07:22",
+                "lineIndex": 15,
+                "lines": [
+                    "        most of the cells in a model when we're looking at"
+                ]
+            },
+            {
+                "time": "13:07:26",
+                "lineIndex": 16,
+                "lines": [
+                    "        a field like D1-D3 field start out temporary and it's"
+                ]
+            },
+            {
+                "time": "13:07:29",
+                "lineIndex": 17,
+                "lines": [
+                    "        only after we understand -- only cells that are known"
+                ]
+            },
+            {
+                "time": "13:07:31",
+                "lineIndex": 18,
+                "lines": [
+                    "        are where the wells are."
+                ]
+            },
+            {
+                "time": "13:07:33",
+                "lineIndex": 19,
+                "lines": [
+                    "     A. So in our case, of the 8.4 million cells only about"
+                ]
+            },
+            {
+                "time": "13:07:40",
+                "lineIndex": 20,
+                "lines": [
+                    "        3,700 of those cells actually intersect the well data."
+                ]
+            },
+            {
+                "time": "13:07:43",
+                "lineIndex": 21,
+                "lines": [
+                    "        So all the rest you know basically 99.99 per cent of"
+                ]
+            },
+            {
+                "time": "13:07:47",
+                "lineIndex": 22,
+                "lines": [
+                    "        the cells we have to populate and we do that using our"
+                ]
+            },
+            {
+                "time": "13:07:52",
+                "lineIndex": 23,
+                "lines": [
+                    "        expertise."
+                ]
+            },
+            {
+                "time": "13:07:53",
+                "lineIndex": 24,
+                "lines": [
+                    "     SIR BERNARD RIX:  And using state-of-the-art software to"
+                ]
+            },
+            {
+                "time": "13:07:58",
+                "lineIndex": 25,
+                "lines": [
+                    "        build the geocellular model."
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 2,
+        "page": 2,
+        "data": [
+            {
+                "time": "13:08:01",
+                "lineIndex": 26,
+                "lines": [
+                    "     CHAIRMAN:  What's the reference to 8 million cells?"
+                ]
+            },
+            {
+                "time": "13:08:03",
+                "lineIndex": 27,
+                "lines": [
+                    "        Where is that?"
+                ]
+            },
+            {
+                "time": "13:08:04",
+                "lineIndex": 28,
+                "lines": [
+                    "     A. Sorry, it's right there, yeah.  Just to get a sense"
+                ]
+            },
+            {
+                "time": "13:08:09",
+                "lineIndex": 29,
+                "lines": [
+                    "        that most of the model has to be built, you know, by"
+                ]
+            },
+            {
+                "time": "13:08:14",
+                "lineIndex": 30,
+                "lines": [
+                    "        the geologist, geophysicist and all of these millions"
+                ]
+            },
+            {
+                "time": "13:08:18",
+                "lineIndex": 31,
+                "lines": [
+                    "        of cells have to be assigned a value, porosity, net to"
+                ]
+            },
+            {
+                "time": "13:08:24",
+                "lineIndex": 32,
+                "lines": [
+                    "        gross, water saturation, permeability, all of those"
+                ]
+            },
+            {
+                "time": "13:08:27",
+                "lineIndex": 33,
+                "lines": [
+                    "        have to be assigned and we do that using our expertise"
+                ]
+            },
+            {
+                "time": "13:08:34",
+                "lineIndex": 34,
+                "lines": [
+                    "        and algorithms, but also --"
+                ]
+            },
+            {
+                "time": "13:08:37",
+                "lineIndex": 35,
+                "lines": [
+                    "     CHAIRMAN:  Isn't that done by the digital equipment?"
+                ]
+            },
+            {
+                "time": "13:08:40",
+                "lineIndex": 36,
+                "lines": [
+                    "     A. It's done by the digital equipment guided by us."
+                ]
+            },
+            {
+                "time": "13:08:43",
+                "lineIndex": 37,
+                "lines": [
+                    "        Guided by the operator of it.  So we tell the digital"
+                ]
+            },
+            {
+                "time": "13:08:47",
+                "lineIndex": 38,
+                "lines": [
+                    "        equipment how to do the process.  Yes.  But it does"
+                ]
+            },
+            {
+                "time": "13:08:51",
+                "lineIndex": 39,
+                "lines": [
+                    "        run.  We give it the parameters to work with."
+                ]
+            },
+            {
+                "time": "13:08:56",
+                "lineIndex": 40,
+                "lines": [
+                    "     CHAIRMAN:  I might have misunderstood it, but I thought"
+                ]
+            },
+            {
+                "time": "13:08:59",
+                "lineIndex": 41,
+                "lines": [
+                    "        the digital equipment produces the images that portray"
+                ]
+            },
+            {
+                "time": "13:09:05",
+                "lineIndex": 42,
+                "lines": [
+                    "        what is there and then:"
+                ]
+            },
+            {
+                "time": "13:09:05",
+                "lineIndex": 43,
+                "lines": [
+                    "            \"The skill of the human being is break it down and"
+                ]
+            },
+            {
+                "time": "13:09:10",
+                "lineIndex": 44,
+                "lines": [
+                    "        to interpret what is there and whether it has any gas"
+                ]
+            },
+            {
+                "time": "13:09:14",
+                "lineIndex": 45,
+                "lines": [
+                    "        or oil relevance.\""
+                ]
+            },
+            {
+                "time": "13:09:17",
+                "lineIndex": 46,
+                "lines": [
+                    "     A. Yeah, that's the case with seismic data it is"
+                ]
+            },
+            {
+                "time": "13:09:21",
+                "lineIndex": 47,
+                "lines": [
+                    "        projected to us and we interpret seismic data and this"
+                ]
+            },
+            {
+                "time": "13:09:28",
+                "lineIndex": 48,
+                "lines": [
+                    "        is a type of seismic data that's probably been spoken"
+                ]
+            },
+            {
+                "time": "13:09:32",
+                "lineIndex": 49,
+                "lines": [
+                    "        already RTI that's very important to this field."
+                ]
+            },
+            {
+                "time": "13:09:36",
+                "lineIndex": 50,
+                "lines": [
+                    "            And so this is the actual seismic data and it's"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 3,
+        "page": 3,
+        "data": [
+            {
+                "time": "13:09:40",
+                "lineIndex": 51,
+                "lines": [
+                    "        been tuned to really highlight gas pay.  So this is"
+                ]
+            },
+            {
+                "time": "13:09:45",
+                "lineIndex": 52,
+                "lines": [
+                    "        a well and these are gas pay sands in the well and"
+                ]
+            },
+            {
+                "time": "13:09:50",
+                "lineIndex": 53,
+                "lines": [
+                    "        this is the seismic data that's calibrated to that."
+                ]
+            },
+            {
+                "time": "13:09:54",
+                "lineIndex": 54,
+                "lines": [
+                    "     MR DAYAL:  Yes, so there is data that's presented to us"
+                ]
+            },
+            {
+                "time": "13:09:56",
+                "lineIndex": 55,
+                "lines": [
+                    "        and we interpret, but then we take that data and we"
+                ]
+            },
+            {
+                "time": "13:09:59",
+                "lineIndex": 56,
+                "lines": [
+                    "        along with algorithms we extrapolate the model, you"
+                ]
+            },
+            {
+                "time": "13:10:03",
+                "lineIndex": 57,
+                "lines": [
+                    "        know, into space."
+                ]
+            },
+            {
+                "time": "13:10:05",
+                "lineIndex": 58,
+                "lines": [
+                    "            Where we have data like this, we have very high"
+                ]
+            },
+            {
+                "time": "13:10:09",
+                "lineIndex": 59,
+                "lines": [
+                    "        confidence in our modelling, you know, where we have"
+                ]
+            },
+            {
+                "time": "13:10:12",
+                "lineIndex": 60,
+                "lines": [
+                    "        less confidence when we're away from control like the"
+                ]
+            },
+            {
+                "time": "13:10:16",
+                "lineIndex": 61,
+                "lines": [
+                    "        seismic control, if that makes sense."
+                ]
+            },
+            {
+                "time": "13:10:21",
+                "lineIndex": 62,
+                "lines": [
+                    "     CHAIRMAN:  Did this technology grow out of the search for"
+                ]
+            },
+            {
+                "time": "13:10:25",
+                "lineIndex": 63,
+                "lines": [
+                    "        oil or does it go hand in hand with oil and gas?"
+                ]
+            },
+            {
+                "time": "13:10:31",
+                "lineIndex": 64,
+                "lines": [
+                    "     A. It's oil and gas hand in hand.  This is seismic"
+                ]
+            },
+            {
+                "time": "13:10:34",
+                "lineIndex": 65,
+                "lines": [
+                    "        technology has been I think -- well, I think it's been"
+                ]
+            },
+            {
+                "time": "13:10:38",
+                "lineIndex": 66,
+                "lines": [
+                    "        around since the 1940s in the offshore environment"
+                ]
+            },
+            {
+                "time": "13:10:41",
+                "lineIndex": 67,
+                "lines": [
+                    "        like where we are here, I think, you know, seismic"
+                ]
+            },
+            {
+                "time": "13:10:44",
+                "lineIndex": 68,
+                "lines": [
+                    "        like the type we have here probably started in the"
+                ]
+            },
+            {
+                "time": "13:10:49",
+                "lineIndex": 69,
+                "lines": [
+                    "        1980s and then again log data it keeps improving in"
+                ]
+            },
+            {
+                "time": "13:10:54",
+                "lineIndex": 70,
+                "lines": [
+                    "        quality over years on year it gets better technology,"
+                ]
+            },
+            {
+                "time": "13:10:57",
+                "lineIndex": 71,
+                "lines": [
+                    "        better resolution, et cetera."
+                ]
+            },
+            {
+                "time": "13:10:59",
+                "lineIndex": 72,
+                "lines": [
+                    "     CHAIRMAN:  The search for submarines in the last war"
+                ]
+            },
+            {
+                "time": "13:11:02",
+                "lineIndex": 73,
+                "lines": [
+                    "        shown in war movies was an early form of seismic"
+                ]
+            },
+            {
+                "time": "13:11:07",
+                "lineIndex": 74,
+                "lines": [
+                    "        search, was it?"
+                ]
+            },
+            {
+                "time": "13:11:08",
+                "lineIndex": 75,
+                "lines": [
+                    "     A. Sonar would be another good example, right."
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 4,
+        "page": 4,
+        "data": [
+            {
+                "time": "13:11:11",
+                "lineIndex": 76,
+                "lines": [
+                    "            Sonar is going to pick up a submarine, but it"
+                ]
+            },
+            {
+                "time": "13:11:14",
+                "lineIndex": 77,
+                "lines": [
+                    "        could also penetrate and see stuff down below.  You"
+                ]
+            },
+            {
+                "time": "13:11:17",
+                "lineIndex": 78,
+                "lines": [
+                    "        can do sonar and actually see features, you know,"
+                ]
+            },
+            {
+                "time": "13:11:20",
+                "lineIndex": 79,
+                "lines": [
+                    "        below the seabed, that certainly a good analogy."
+                ]
+            },
+            {
+                "time": "13:11:29",
+                "lineIndex": 80,
+                "lines": [
+                    "     MR SALVE:  So I mentioned a couple of things.  I'm going"
+                ]
+            },
+            {
+                "time": "13:11:35",
+                "lineIndex": 81,
+                "lines": [
+                    "        to try to move along here quickly, but what I want to"
+                ]
+            },
+            {
+                "time": "13:11:38",
+                "lineIndex": 82,
+                "lines": [
+                    "        say from here is at the time of the AIDP"
+                ]
+            },
+            {
+                "time": "13:11:41",
+                "lineIndex": 83,
+                "lines": [
+                    "        pre-production there were uncertainties and we had"
+                ]
+            },
+            {
+                "time": "13:11:48",
+                "lineIndex": 84,
+                "lines": [
+                    "        estimates of net pay that the contractor was relying"
+                ]
+            },
+            {
+                "time": "13:11:52",
+                "lineIndex": 85,
+                "lines": [
+                    "        on, GCAs and also Schlumberger and what they gave"
+                ]
+            },
+            {
+                "time": "13:11:58",
+                "lineIndex": 86,
+                "lines": [
+                    "        Reliance at the time of the whole thing it wasn't what"
+                ]
+            },
+            {
+                "time": "13:11:59",
+                "lineIndex": 87,
+                "lines": [
+                    "        they hoped for, but it's the way it is.  The AIDP was"
+                ]
+            },
+            {
+                "time": "13:12:05",
+                "lineIndex": 88,
+                "lines": [
+                    "        what we believe to be higher values than are currently"
+                ]
+            },
+            {
+                "time": "13:12:08",
+                "lineIndex": 89,
+                "lines": [
+                    "        understood now post-production."
+                ]
+            },
+            {
+                "time": "13:12:11",
+                "lineIndex": 90,
+                "lines": [
+                    "            So that the key question is and again it really"
+                ]
+            },
+            {
+                "time": "13:12:14",
+                "lineIndex": 91,
+                "lines": [
+                    "        was the thin beds that I talked about where the"
+                ]
+            },
+            {
+                "time": "13:12:17",
+                "lineIndex": 92,
+                "lines": [
+                    "        difficult ones, the blocky sands are easy to evaluate."
+                ]
+            },
+            {
+                "time": "13:12:21",
+                "lineIndex": 93,
+                "lines": [
+                    "        Everyone gets those right.  Those aren't in question."
+                ]
+            },
+            {
+                "time": "13:12:23",
+                "lineIndex": 94,
+                "lines": [
+                    "        The difficult bit are is how much and how extensive"
+                ]
+            },
+            {
+                "time": "13:12:28",
+                "lineIndex": 95,
+                "lines": [
+                    "        are the thin beds and how much they will contribute"
+                ]
+            },
+            {
+                "time": "13:12:30",
+                "lineIndex": 96,
+                "lines": [
+                    "        gas to the overall field."
+                ]
+            },
+            {
+                "time": "13:12:33",
+                "lineIndex": 97,
+                "lines": [
+                    "            I also talked about models, so these are very"
+                ]
+            },
+            {
+                "time": "13:12:37",
+                "lineIndex": 98,
+                "lines": [
+                    "        schematic, but if you can imagine this is"
+                ]
+            },
+            {
+                "time": "13:12:39",
+                "lineIndex": 99,
+                "lines": [
+                    "        a cross-section through one of the channels in the"
+                ]
+            },
+            {
+                "time": "13:12:43",
+                "lineIndex": 100,
+                "lines": [
+                    "        D1-D3 fields and in the AIDP the model was what we"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 5,
+        "page": 5,
+        "data": [
+            {
+                "time": "13:12:49",
+                "lineIndex": 101,
+                "lines": [
+                    "        call unconfined.  So it meant that we had these"
+                ]
+            },
+            {
+                "time": "13:12:51",
+                "lineIndex": 102,
+                "lines": [
+                    "        channels and the thin beds, the levees and the"
+                ]
+            },
+            {
+                "time": "13:12:55",
+                "lineIndex": 103,
+                "lines": [
+                    "        overbanks could extend a great distances away."
+                ]
+            },
+            {
+                "time": "13:12:58",
+                "lineIndex": 104,
+                "lines": [
+                    "            What is turned out post-production with the"
+                ]
+            },
+            {
+                "time": "13:13:02",
+                "lineIndex": 105,
+                "lines": [
+                    "        knowledge of post-production -- and Phil will talk"
+                ]
+            },
+            {
+                "time": "13:13:04",
+                "lineIndex": 106,
+                "lines": [
+                    "        about that in a second -- is that our understanding is"
+                ]
+            },
+            {
+                "time": "13:13:07",
+                "lineIndex": 107,
+                "lines": [
+                    "        now unconfined or excuse me confined, so this these"
+                ]
+            },
+            {
+                "time": "13:13:10",
+                "lineIndex": 108,
+                "lines": [
+                    "        channels now are encased in a canyon and that these"
+                ]
+            },
+            {
+                "time": "13:13:15",
+                "lineIndex": 109,
+                "lines": [
+                    "        thin beds that were thought to extend a great distance"
+                ]
+            },
+            {
+                "time": "13:13:18",
+                "lineIndex": 110,
+                "lines": [
+                    "        away now appear to be basically stopped and are really"
+                ]
+            },
+            {
+                "time": "13:13:22",
+                "lineIndex": 111,
+                "lines": [
+                    "        in this canyon and don't extend much beyond it."
+                ]
+            },
+            {
+                "time": "13:13:25",
+                "lineIndex": 112,
+                "lines": [
+                    "            So that's the crux and I just want to point out"
+                ]
+            },
+            {
+                "time": "13:13:30",
+                "lineIndex": 113,
+                "lines": [
+                    "        that pre-production is a type of the AIDP and these"
+                ]
+            },
+            {
+                "time": "13:13:33",
+                "lineIndex": 114,
+                "lines": [
+                    "        are volumetric metrics.  We didn't have production"
+                ]
+            },
+            {
+                "time": "13:13:35",
+                "lineIndex": 115,
+                "lines": [
+                    "        data yet and Mr Spellman in a second here will explain"
+                ]
+            },
+            {
+                "time": "13:13:39",
+                "lineIndex": 116,
+                "lines": [
+                    "        to you the importance of the production data."
+                ]
+            },
+            {
+                "time": "13:13:47",
+                "lineIndex": 117,
+                "lines": [
+                    "     MR SPELLMAN:  Thank you, Phil."
+                ]
+            },
+            {
+                "time": "13:13:49",
+                "lineIndex": 118,
+                "lines": [
+                    "            Phil described seismic data covers the entire"
+                ]
+            },
+            {
+                "time": "13:13:52",
+                "lineIndex": 119,
+                "lines": [
+                    "        block, but it's not detailed resolution.  You then"
+                ]
+            },
+            {
+                "time": "13:13:56",
+                "lineIndex": 120,
+                "lines": [
+                    "        drill wells and get logs and that gives you more"
+                ]
+            },
+            {
+                "time": "13:13:59",
+                "lineIndex": 121,
+                "lines": [
+                    "        specific detail you get core out of a smaller set of"
+                ]
+            },
+            {
+                "time": "13:14:08",
+                "lineIndex": 122,
+                "lines": [
+                    "        wells because you don't core everywhere."
+                ]
+            },
+            {
+                "time": "13:14:11",
+                "lineIndex": 123,
+                "lines": [
+                    "            The next piece of informations that a very, very"
+                ]
+            },
+            {
+                "time": "13:14:15",
+                "lineIndex": 124,
+                "lines": [
+                    "        important piece of information is what we call I'll"
+                ]
+            },
+            {
+                "time": "13:14:17",
+                "lineIndex": 125,
+                "lines": [
+                    "        refer to as performance data which is going to be"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 6,
+        "page": 6,
+        "data": [
+            {
+                "time": "13:14:20",
+                "lineIndex": 126,
+                "lines": [
+                    "        production and pressure data.  So as the field"
+                ]
+            },
+            {
+                "time": "13:14:23",
+                "lineIndex": 127,
+                "lines": [
+                    "        produces, you keep track of the pressure initially and"
+                ]
+            },
+            {
+                "time": "13:14:26",
+                "lineIndex": 128,
+                "lines": [
+                    "        then watch that as the field produces."
+                ]
+            },
+            {
+                "time": "13:14:30",
+                "lineIndex": 129,
+                "lines": [
+                    "            We liken that to letting the reservoir tell you"
+                ]
+            },
+            {
+                "time": "13:14:33",
+                "lineIndex": 130,
+                "lines": [
+                    "        what size it is by listening to it.  There was"
+                ]
+            },
+            {
+                "time": "13:14:38",
+                "lineIndex": 131,
+                "lines": [
+                    "        a couple of suggestions of analogues of gasfield"
+                ]
+            },
+            {
+                "time": "13:14:42",
+                "lineIndex": 132,
+                "lines": [
+                    "        balloon or decompressing aeroplane."
+                ]
+            },
+            {
+                "time": "13:14:46",
+                "lineIndex": 133,
+                "lines": [
+                    "            We thought this tank of compressed gas was"
+                ]
+            },
+            {
+                "time": "13:14:49",
+                "lineIndex": 134,
+                "lines": [
+                    "        a better analogue than what we had before when it"
+                ]
+            },
+            {
+                "time": "13:14:51",
+                "lineIndex": 135,
+                "lines": [
+                    "        changes shape, changes size and a reservoir doesn't"
+                ]
+            },
+            {
+                "time": "13:14:57",
+                "lineIndex": 136,
+                "lines": [
+                    "        do that."
+                ]
+            },
+            {
+                "time": "13:14:57",
+                "lineIndex": 137,
+                "lines": [
+                    "            Then the decompressing aeroplane we that's not how"
+                ]
+            },
+            {
+                "time": "13:15:00",
+                "lineIndex": 138,
+                "lines": [
+                    "        the gas was produced so whatever is a compressed gas"
+                ]
+            },
+            {
+                "time": "13:15:05",
+                "lineIndex": 139,
+                "lines": [
+                    "        table and it's showing the original pressure we have"
+                ]
+            },
+            {
+                "time": "13:15:08",
+                "lineIndex": 140,
+                "lines": [
+                    "        a valve to simulate the 18 wells -- phase 1 wells.  So"
+                ]
+            },
+            {
+                "time": "13:15:13",
+                "lineIndex": 141,
+                "lines": [
+                    "        we're going to turn on this valve.  We're going to let"
+                ]
+            },
+            {
+                "time": "13:15:15",
+                "lineIndex": 142,
+                "lines": [
+                    "        that gas produce, we're going to measure the pressure"
+                ]
+            },
+            {
+                "time": "13:15:18",
+                "lineIndex": 143,
+                "lines": [
+                    "        from the pressure gauge and we're going to keep"
+                ]
+            },
+            {
+                "time": "13:15:20",
+                "lineIndex": 144,
+                "lines": [
+                    "        talking about how much production is coming out of it"
+                ]
+            },
+            {
+                "time": "13:15:22",
+                "lineIndex": 145,
+                "lines": [
+                    "        and plot that up on a simple pressure versus"
+                ]
+            },
+            {
+                "time": "13:15:26",
+                "lineIndex": 146,
+                "lines": [
+                    "        cumulative production plot."
+                ]
+            },
+            {
+                "time": "13:15:27",
+                "lineIndex": 147,
+                "lines": [
+                    "            That's what's shown there as the field is moving."
+                ]
+            },
+            {
+                "time": "13:15:31",
+                "lineIndex": 148,
+                "lines": [
+                    "        You see the second valve show us.  That's the phase 2"
+                ]
+            },
+            {
+                "time": "13:15:34",
+                "lineIndex": 149,
+                "lines": [
+                    "        drilling that was contemplated in the AIDP and if you"
+                ]
+            },
+            {
+                "time": "13:15:38",
+                "lineIndex": 150,
+                "lines": [
+                    "        continue down to monitoring that pressure you project"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 7,
+        "page": 7,
+        "data": [
+            {
+                "time": "13:15:42",
+                "lineIndex": 151,
+                "lines": [
+                    "        that data it's going to project to the gas in place"
+                ]
+            },
+            {
+                "time": "13:15:45",
+                "lineIndex": 152,
+                "lines": [
+                    "        estimate and that would project to receiving 6 TCF"
+                ]
+            },
+            {
+                "time": "13:15:49",
+                "lineIndex": 153,
+                "lines": [
+                    "        before the end of the year."
+                ]
+            },
+            {
+                "time": "13:15:49",
+                "lineIndex": 154,
+                "lines": [
+                    "            This is an illustration only we've got multiple"
+                ]
+            },
+            {
+                "time": "13:15:55",
+                "lineIndex": 155,
+                "lines": [
+                    "        P/Z plots for the visit well that is we can go into"
+                ]
+            },
+            {
+                "time": "13:15:58",
+                "lineIndex": 156,
+                "lines": [
+                    "        detail.  This is just an illustration to show that."
+                ]
+            },
+            {
+                "time": "13:16:01",
+                "lineIndex": 157,
+                "lines": [
+                    "            That was the understanding of how this reservoir"
+                ]
+            },
+            {
+                "time": "13:16:05",
+                "lineIndex": 158,
+                "lines": [
+                    "        should have performed.  But we don't know it.  We"
+                ]
+            },
+            {
+                "time": "13:16:10",
+                "lineIndex": 159,
+                "lines": [
+                    "        don't know how big the tank is.  We have the estimate"
+                ]
+            },
+            {
+                "time": "13:16:12",
+                "lineIndex": 160,
+                "lines": [
+                    "        from the volumetric.  Phil has described it, but we're"
+                ]
+            },
+            {
+                "time": "13:16:16",
+                "lineIndex": 161,
+                "lines": [
+                    "        going to go ahead and put this reservoir back on"
+                ]
+            },
+            {
+                "time": "13:16:19",
+                "lineIndex": 162,
+                "lines": [
+                    "        production."
+                ]
+            },
+            {
+                "time": "13:16:19",
+                "lineIndex": 163,
+                "lines": [
+                    "            So we got phase is wells drilled, the original"
+                ]
+            },
+            {
+                "time": "13:16:22",
+                "lineIndex": 164,
+                "lines": [
+                    "        pressure is the same, but we see that as the"
+                ]
+            },
+            {
+                "time": "13:16:27",
+                "lineIndex": 165,
+                "lines": [
+                    "        production continues, that the reservoir pressure is"
+                ]
+            },
+            {
+                "time": "13:16:30",
+                "lineIndex": 166,
+                "lines": [
+                    "        dropping faster.  And that was noted by the parties,"
+                ]
+            },
+            {
+                "time": "13:16:34",
+                "lineIndex": 167,
+                "lines": [
+                    "        that it was dropping faster than expected and it's"
+                ]
+            },
+            {
+                "time": "13:16:37",
+                "lineIndex": 168,
+                "lines": [
+                    "        really dropping faster than what it would have if you"
+                ]
+            },
+            {
+                "time": "13:16:41",
+                "lineIndex": 169,
+                "lines": [
+                    "        had a 16.3 TCF reservoir."
+                ]
+            },
+            {
+                "time": "13:16:44",
+                "lineIndex": 170,
+                "lines": [
+                    "            You look at that up the actual data and it's"
+                ]
+            },
+            {
+                "time": "13:16:47",
+                "lineIndex": 171,
+                "lines": [
+                    "        telling you that you're got about 4.5 TCF of gas and"
+                ]
+            },
+            {
+                "time": "13:16:51",
+                "lineIndex": 172,
+                "lines": [
+                    "        that's about the volume that was estimated, you know,"
+                ]
+            },
+            {
+                "time": "13:16:55",
+                "lineIndex": 173,
+                "lines": [
+                    "        in the RFDP timeframe, so a couple of years after"
+                ]
+            },
+            {
+                "time": "13:16:59",
+                "lineIndex": 174,
+                "lines": [
+                    "        production started."
+                ]
+            },
+            {
+                "time": "13:17:00",
+                "lineIndex": 175,
+                "lines": [
+                    "            So that's what caused the geoscientists and the"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 8,
+        "page": 8,
+        "data": [
+            {
+                "time": "13:17:03",
+                "lineIndex": 176,
+                "lines": [
+                    "        engineers to go to this field and find out where did"
+                ]
+            },
+            {
+                "time": "13:17:09",
+                "lineIndex": 177,
+                "lines": [
+                    "        the gas go?  That's what happened to everyone."
+                ]
+            },
+            {
+                "time": "13:17:11",
+                "lineIndex": 178,
+                "lines": [
+                    "            That's the two:"
+                ]
+            },
+            {
+                "time": "13:17:14",
+                "lineIndex": 179,
+                "lines": [
+                    "            \"Of the big components are the confined unconfined"
+                ]
+            },
+            {
+                "time": "13:17:17",
+                "lineIndex": 180,
+                "lines": [
+                    "        nature of it.  He also mentioned the laminated sands.\""
+                ]
+            },
+            {
+                "time": "13:17:21",
+                "lineIndex": 181,
+                "lines": [
+                    "     CHAIRMAN:  Don't understand that confined.  What was the"
+                ]
+            },
+            {
+                "time": "13:17:24",
+                "lineIndex": 182,
+                "lines": [
+                    "        confined name \"zero\" it."
+                ]
+            },
+            {
+                "time": "13:17:27",
+                "lineIndex": 183,
+                "lines": [
+                    "     MR SPELLMAN:  The deposition pre-AIDP was that it was"
+                ]
+            },
+            {
+                "time": "13:17:30",
+                "lineIndex": 184,
+                "lines": [
+                    "        confined to the whole and could extend large"
+                ]
+            },
+            {
+                "time": "13:17:35",
+                "lineIndex": 185,
+                "lines": [
+                    "        distances."
+                ]
+            },
+            {
+                "time": "13:17:39",
+                "lineIndex": 186,
+                "lines": [
+                    "     A. No, you're telling.  Confined model means that if you"
+                ]
+            },
+            {
+                "time": "13:17:43",
+                "lineIndex": 187,
+                "lines": [
+                    "        don't have this contained system, if you don't have"
+                ]
+            },
+            {
+                "time": "13:17:45",
+                "lineIndex": 188,
+                "lines": [
+                    "        these boundaries that are confining the reservoirs,"
+                ]
+            },
+            {
+                "time": "13:17:48",
+                "lineIndex": 189,
+                "lines": [
+                    "        then these thin beds can extend a long way and they"
+                ]
+            },
+            {
+                "time": "13:17:52",
+                "lineIndex": 190,
+                "lines": [
+                    "        could and would contribute as the field was being"
+                ]
+            },
+            {
+                "time": "13:17:56",
+                "lineIndex": 191,
+                "lines": [
+                    "        produced they would contribute back to these main"
+                ]
+            },
+            {
+                "time": "13:17:58",
+                "lineIndex": 192,
+                "lines": [
+                    "        channels where the bulk of the wells would be located"
+                ]
+            },
+            {
+                "time": "13:18:03",
+                "lineIndex": 193,
+                "lines": [
+                    "        in the confined system."
+                ]
+            },
+            {
+                "time": "13:18:05",
+                "lineIndex": 194,
+                "lines": [
+                    "            Again, basically, the same picture, but we have"
+                ]
+            },
+            {
+                "time": "13:18:08",
+                "lineIndex": 195,
+                "lines": [
+                    "        this whole thing again, so these are actually these"
+                ]
+            },
+            {
+                "time": "13:18:11",
+                "lineIndex": 196,
+                "lines": [
+                    "        things, these channels and levees overbanks are"
+                ]
+            },
+            {
+                "time": "13:18:15",
+                "lineIndex": 197,
+                "lines": [
+                    "        trapped in the canyon and again outside as it turns"
+                ]
+            },
+            {
+                "time": "13:18:19",
+                "lineIndex": 198,
+                "lines": [
+                    "        out after more investigation by the contractor, turned"
+                ]
+            },
+            {
+                "time": "13:18:23",
+                "lineIndex": 199,
+                "lines": [
+                    "        out to be not containing the thin beds as expected."
+                ]
+            },
+            {
+                "time": "13:18:29",
+                "lineIndex": 200,
+                "lines": [
+                    "            So that's the differences is unconfined, able to"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 9,
+        "page": 9,
+        "data": [
+            {
+                "time": "13:18:34",
+                "lineIndex": 201,
+                "lines": [
+                    "        go all the way from the channel system, and confined"
+                ]
+            },
+            {
+                "time": "13:18:38",
+                "lineIndex": 202,
+                "lines": [
+                    "        most of the gas resources are right to go somewhere"
+                ]
+            },
+            {
+                "time": "13:18:42",
+                "lineIndex": 203,
+                "lines": [
+                    "        the channels are -- if that helps."
+                ]
+            },
+            {
+                "time": "13:18:46",
+                "lineIndex": 204,
+                "lines": [
+                    "     CHAIRMAN:  We normally have morning tea break and I don't"
+                ]
+            },
+            {
+                "time": "13:18:50",
+                "lineIndex": 205,
+                "lines": [
+                    "        want to interrupt your presentation."
+                ]
+            },
+            {
+                "time": "13:18:53",
+                "lineIndex": 206,
+                "lines": [
+                    "            How long is now left in your oral presentation of"
+                ]
+            },
+            {
+                "time": "13:18:57",
+                "lineIndex": 207,
+                "lines": [
+                    "        these slides?  Please don't feel obliged to rush it."
+                ]
+            },
+            {
+                "time": "13:19:03",
+                "lineIndex": 208,
+                "lines": [
+                    "        I want to understand this."
+                ]
+            },
+            {
+                "time": "13:19:05",
+                "lineIndex": 209,
+                "lines": [
+                    "     WITNESS:  I'd say it's probably, what, 15 minutes."
+                ]
+            },
+            {
+                "time": "13:19:09",
+                "lineIndex": 210,
+                "lines": [
+                    "            Yeah, probably a few more minutes."
+                ]
+            },
+            {
+                "time": "13:19:10",
+                "lineIndex": 211,
+                "lines": [
+                    "     CHAIRMAN:  Is it acceptable to continue for 15 minutes?"
+                ]
+            },
+            {
+                "time": "13:19:17",
+                "lineIndex": 212,
+                "lines": [
+                    "     MR KOHLI:  May I just point out one thing.  Many of the"
+                ]
+            },
+            {
+                "time": "13:19:19",
+                "lineIndex": 213,
+                "lines": [
+                    "        questions that I have are relating to these slides."
+                ]
+            },
+            {
+                "time": "13:19:23",
+                "lineIndex": 214,
+                "lines": [
+                    "        So this presentation is actually quite helpful because"
+                ]
+            },
+            {
+                "time": "13:19:27",
+                "lineIndex": 215,
+                "lines": [
+                    "        those are the questions I had to ask to make sure that"
+                ]
+            },
+            {
+                "time": "13:19:30",
+                "lineIndex": 216,
+                "lines": [
+                    "        everything is fully explained."
+                ]
+            },
+            {
+                "time": "13:19:32",
+                "lineIndex": 217,
+                "lines": [
+                    "            If the gentlemen here take a few more minutes to"
+                ]
+            },
+            {
+                "time": "13:19:35",
+                "lineIndex": 218,
+                "lines": [
+                    "        actually explain it properly, I won't be minding that"
+                ]
+            },
+            {
+                "time": "13:19:38",
+                "lineIndex": 219,
+                "lines": [
+                    "        at all."
+                ]
+            },
+            {
+                "time": "13:19:38",
+                "lineIndex": 220,
+                "lines": [
+                    "     CHAIRMAN:  Yes, well, I feel much the same as you,"
+                ]
+            },
+            {
+                "time": "13:19:40",
+                "lineIndex": 221,
+                "lines": [
+                    "        Mr Kohli."
+                ]
+            },
+            {
+                "time": "13:19:41",
+                "lineIndex": 222,
+                "lines": [
+                    "            And I was thinking during this presentation that"
+                ]
+            },
+            {
+                "time": "13:19:45",
+                "lineIndex": 223,
+                "lines": [
+                    "        it might for any future arbitrations of this kind, be"
+                ]
+            },
+            {
+                "time": "13:19:52",
+                "lineIndex": 224,
+                "lines": [
+                    "        beneficial to have, if necessary, a couple of experts,"
+                ]
+            },
+            {
+                "time": "13:19:57",
+                "lineIndex": 225,
+                "lines": [
+                    "        because they may not disagree, but if this had been"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 10,
+        "page": 10,
+        "data": [
+            {
+                "time": "13:20:01",
+                "lineIndex": 226,
+                "lines": [
+                    "        given at the very beginning to the subcontractor --"
+                ]
+            },
+            {
+                "time": "13:20:03",
+                "lineIndex": 227,
+                "lines": [
+                    "        I'm not criticising anybody -- it would, I think, have"
+                ]
+            },
+            {
+                "time": "13:20:07",
+                "lineIndex": 228,
+                "lines": [
+                    "        been helpful."
+                ]
+            },
+            {
+                "time": "13:20:10",
+                "lineIndex": 229,
+                "lines": [
+                    "            So let us press on, and you take the time that is"
+                ]
+            },
+            {
+                "time": "13:20:14",
+                "lineIndex": 230,
+                "lines": [
+                    "        necessary."
+                ]
+            },
+            {
+                "time": "13:20:15",
+                "lineIndex": 231,
+                "lines": [
+                    "     A. Thank you, sir."
+                ]
+            },
+            {
+                "time": "13:20:17",
+                "lineIndex": 232,
+                "lines": [
+                    "            So the production performance, you know, that we"
+                ]
+            },
+            {
+                "time": "13:20:19",
+                "lineIndex": 233,
+                "lines": [
+                    "        saw just illustrated by that schematic of a tank with"
+                ]
+            },
+            {
+                "time": "13:20:24",
+                "lineIndex": 234,
+                "lines": [
+                    "        compressed gas being produced from it, indicates that"
+                ]
+            },
+            {
+                "time": "13:20:28",
+                "lineIndex": 235,
+                "lines": [
+                    "        smaller volumes were actually in the field until just"
+                ]
+            },
+            {
+                "time": "13:20:33",
+                "lineIndex": 236,
+                "lines": [
+                    "        described parts of the component is due to the"
+                ]
+            },
+            {
+                "time": "13:20:35",
+                "lineIndex": 237,
+                "lines": [
+                    "        confined/unconfined interpretations."
+                ]
+            },
+            {
+                "time": "13:20:39",
+                "lineIndex": 238,
+                "lines": [
+                    "            The other part, as Phil mentioned, in going"
+                ]
+            },
+            {
+                "time": "13:20:41",
+                "lineIndex": 239,
+                "lines": [
+                    "        through the log analysis the net pay pre-production"
+                ]
+            },
+            {
+                "time": "13:20:47",
+                "lineIndex": 240,
+                "lines": [
+                    "        and post-production was significantly reduced and"
+                ]
+            },
+            {
+                "time": "13:20:50",
+                "lineIndex": 241,
+                "lines": [
+                    "        that's because the contributions from the thin bed"
+                ]
+            },
+            {
+                "time": "13:20:52",
+                "lineIndex": 242,
+                "lines": [
+                    "        sands did not come into play once the production data"
+                ]
+            },
+            {
+                "time": "13:21:00",
+                "lineIndex": 243,
+                "lines": [
+                    "        was available."
+                ]
+            },
+            {
+                "time": "13:21:01",
+                "lineIndex": 244,
+                "lines": [
+                    "            So there was adjustments made to the"
+                ]
+            },
+            {
+                "time": "13:21:03",
+                "lineIndex": 245,
+                "lines": [
+                    "        confined/unconfined system and also to the net pay"
+                ]
+            },
+            {
+                "time": "13:21:07",
+                "lineIndex": 246,
+                "lines": [
+                    "        calculations."
+                ]
+            },
+            {
+                "time": "13:21:11",
+                "lineIndex": 247,
+                "lines": [
+                    "            Yeah."
+                ]
+            },
+            {
+                "time": "13:21:11",
+                "lineIndex": 248,
+                "lines": [
+                    " 1   Q. I just briefly talk about this.  This is a graph of"
+                ]
+            },
+            {
+                "time": "13:21:15",
+                "lineIndex": 249,
+                "lines": [
+                    "        the gas in place estimates original gas in place"
+                ]
+            },
+            {
+                "time": "13:21:17",
+                "lineIndex": 250,
+                "lines": [
+                    "        estimates, so this is the 2P estimates through the"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 11,
+        "page": 11,
+        "data": [
+            {
+                "time": "13:21:20",
+                "lineIndex": 251,
+                "lines": [
+                    "        whole time of the experience in January 2009, you have"
+                ]
+            },
+            {
+                "time": "13:21:26",
+                "lineIndex": 252,
+                "lines": [
+                    "        production data that's now available pre-production"
+                ]
+            },
+            {
+                "time": "13:21:31",
+                "lineIndex": 253,
+                "lines": [
+                    "        and all the estimates through time is additional wells"
+                ]
+            },
+            {
+                "time": "13:21:36",
+                "lineIndex": 254,
+                "lines": [
+                    "        were drilled which is the blue line showing the well"
+                ]
+            },
+            {
+                "time": "13:21:39",
+                "lineIndex": 255,
+                "lines": [
+                    "        dropped out numbers were going up and then after"
+                ]
+            },
+            {
+                "time": "13:21:42",
+                "lineIndex": 256,
+                "lines": [
+                    "        production of the numbers have been taken down to the"
+                ]
+            },
+            {
+                "time": "13:21:47",
+                "lineIndex": 257,
+                "lines": [
+                    "        levels which you see over there on the graph."
+                ]
+            },
+            {
+                "time": "13:21:50",
+                "lineIndex": 258,
+                "lines": [
+                    "            That's a judgment, a summary of that.  It's a wide"
+                ]
+            },
+            {
+                "time": "13:21:53",
+                "lineIndex": 259,
+                "lines": [
+                    "        range of estimates.  Post-production there's a pretty"
+                ]
+            },
+            {
+                "time": "13:21:56",
+                "lineIndex": 260,
+                "lines": [
+                    "        tight range of estimates from multiple consultants."
+                ]
+            },
+            {
+                "time": "13:22:04",
+                "lineIndex": 261,
+                "lines": [
+                    " 2   Q. So natural processes --"
+                ]
+            },
+            {
+                "time": "13:22:08",
+                "lineIndex": 262,
+                "lines": [
+                    "     CHAIRMAN:  Can I ask a question that arises out of"
+                ]
+            },
+            {
+                "time": "13:22:14",
+                "lineIndex": 263,
+                "lines": [
+                    "        Prof Cameron's report.  He denies that he is engaging"
+                ]
+            },
+            {
+                "time": "13:22:21",
+                "lineIndex": 264,
+                "lines": [
+                    "        in just retrospective examination and being wise of"
+                ]
+            },
+            {
+                "time": "13:22:27",
+                "lineIndex": 265,
+                "lines": [
+                    "        events.  He says once it's after events and this has"
+                ]
+            },
+            {
+                "time": "13:22:33",
+                "lineIndex": 266,
+                "lines": [
+                    "        really fallen, you have to go back and ask what you"
+                ]
+            },
+            {
+                "time": "13:22:39",
+                "lineIndex": 267,
+                "lines": [
+                    "        failed to do earlier in the life of the exploration."
+                ]
+            },
+            {
+                "time": "13:22:56",
+                "lineIndex": 268,
+                "lines": [
+                    "            So at some stage in your presentation, I'd like"
+                ]
+            },
+            {
+                "time": "13:23:01",
+                "lineIndex": 269,
+                "lines": [
+                    "        you to explain why it wasn't possible to get the"
+                ]
+            },
+            {
+                "time": "13:23:06",
+                "lineIndex": 270,
+                "lines": [
+                    "        warning signals that required not only that Reliance"
+                ]
+            },
+            {
+                "time": "13:23:11",
+                "lineIndex": 271,
+                "lines": [
+                    "        would inform the government exactly what was"
+                ]
+            },
+            {
+                "time": "13:23:15",
+                "lineIndex": 272,
+                "lines": [
+                    "        happening, which is a question, but that it would have"
+                ]
+            },
+            {
+                "time": "13:23:21",
+                "lineIndex": 273,
+                "lines": [
+                    "        alerted those who are scientists looking at this, who"
+                ]
+            },
+            {
+                "time": "13:23:26",
+                "lineIndex": 274,
+                "lines": [
+                    "        are professional people doing their job, of really"
+                ]
+            },
+            {
+                "time": "13:23:32",
+                "lineIndex": 275,
+                "lines": [
+                    "        examining what steps had to be taken to put this in"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 12,
+        "page": 12,
+        "data": [
+            {
+                "time": "13:23:38",
+                "lineIndex": 276,
+                "lines": [
+                    "        reverse given that the signals were coming that it was"
+                ]
+            },
+            {
+                "time": "13:23:43",
+                "lineIndex": 277,
+                "lines": [
+                    "        really a very disappointing well, a very disappointing"
+                ]
+            },
+            {
+                "time": "13:23:48",
+                "lineIndex": 278,
+                "lines": [
+                    "        source?"
+                ]
+            },
+            {
+                "time": "13:23:50",
+                "lineIndex": 279,
+                "lines": [
+                    "     A. Right."
+                ]
+            },
+            {
+                "time": "13:23:51",
+                "lineIndex": 280,
+                "lines": [
+                    "     CHAIRMAN:  That I think is really at the heart -- core of"
+                ]
+            },
+            {
+                "time": "13:23:54",
+                "lineIndex": 281,
+                "lines": [
+                    "        this, of the conflict between the parties.  So what --"
+                ]
+            },
+            {
+                "time": "13:24:01",
+                "lineIndex": 282,
+                "lines": [
+                    "     A. Yes, we don't directly address that head on in this"
+                ]
+            },
+            {
+                "time": "13:24:06",
+                "lineIndex": 283,
+                "lines": [
+                    "        presentation.  What we're trying to show is the data"
+                ]
+            },
+            {
+                "time": "13:24:10",
+                "lineIndex": 284,
+                "lines": [
+                    "        that was available at the various points in time, the"
+                ]
+            },
+            {
+                "time": "13:24:13",
+                "lineIndex": 285,
+                "lines": [
+                    "        tools that were available to analyse that data and how"
+                ]
+            },
+            {
+                "time": "13:24:16",
+                "lineIndex": 286,
+                "lines": [
+                    "        that data was used and we stopped short of addressing"
+                ]
+            },
+            {
+                "time": "13:24:19",
+                "lineIndex": 287,
+                "lines": [
+                    "        the question you just brought --"
+                ]
+            },
+            {
+                "time": "13:24:22",
+                "lineIndex": 288,
+                "lines": [
+                    "     CHAIRMAN:  We'll come to that in due course, no doubt."
+                ]
+            },
+            {
+                "time": "13:24:24",
+                "lineIndex": 289,
+                "lines": [
+                    "     A. Yes, sir."
+                ]
+            },
+            {
+                "time": "13:24:25",
+                "lineIndex": 290,
+                "lines": [
+                    "     CHAIRMAN:  But with the help of anything you have to say"
+                ]
+            },
+            {
+                "time": "13:24:27",
+                "lineIndex": 291,
+                "lines": [
+                    "        about the exploratory process that will help us to"
+                ]
+            },
+            {
+                "time": "13:24:31",
+                "lineIndex": 292,
+                "lines": [
+                    "        understand that question at the end of the testimony?"
+                ]
+            },
+            {
+                "time": "13:24:37",
+                "lineIndex": 293,
+                "lines": [
+                    "     A. Yes, sir."
+                ]
+            },
+            {
+                "time": "13:24:40",
+                "lineIndex": 294,
+                "lines": [
+                    " 3   Q. So this is a quick analogue here just to, you know,"
+                ]
+            },
+            {
+                "time": "13:24:44",
+                "lineIndex": 295,
+                "lines": [
+                    "        modelling is -- excuse me, modelling is difficult"
+                ]
+            },
+            {
+                "time": "13:24:49",
+                "lineIndex": 296,
+                "lines": [
+                    "        sometimes, modelling and this is an example of"
+                ]
+            },
+            {
+                "time": "13:24:53",
+                "lineIndex": 297,
+                "lines": [
+                    "        forecasting storm tracks and I draw this analogue to"
+                ]
+            },
+            {
+                "time": "13:24:57",
+                "lineIndex": 298,
+                "lines": [
+                    "        the difficulty especially prior to the getting"
+                ]
+            },
+            {
+                "time": "13:25:02",
+                "lineIndex": 299,
+                "lines": [
+                    "        production data to estimating the gas in the D1-D3"
+                ]
+            },
+            {
+                "time": "13:25:06",
+                "lineIndex": 300,
+                "lines": [
+                    "        field.  So this is an example from the Gulf of Mexico."
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 13,
+        "page": 13,
+        "data": [
+            {
+                "time": "13:25:11",
+                "lineIndex": 301,
+                "lines": [
+                    "        This is a storm from 2022 called Tropical Storm Ian"
+                ]
+            },
+            {
+                "time": "13:25:16",
+                "lineIndex": 302,
+                "lines": [
+                    "        that turned into a hurricane and all of these tracks,"
+                ]
+            },
+            {
+                "time": "13:25:19",
+                "lineIndex": 303,
+                "lines": [
+                    "        these are models, you know, multiple realisations if"
+                ]
+            },
+            {
+                "time": "13:25:23",
+                "lineIndex": 304,
+                "lines": [
+                    "        you will, of how this storm could track three"
+                ]
+            },
+            {
+                "time": "13:25:26",
+                "lineIndex": 305,
+                "lines": [
+                    "        days out."
+                ]
+            },
+            {
+                "time": "13:25:28",
+                "lineIndex": 306,
+                "lines": [
+                    "            So you can see that the predictions from competent"
+                ]
+            },
+            {
+                "time": "13:25:32",
+                "lineIndex": 307,
+                "lines": [
+                    "        meteorologists scientists using modern software there"
+                ]
+            },
+            {
+                "time": "13:25:36",
+                "lineIndex": 308,
+                "lines": [
+                    "        was a wide range of uncertainty and that's the nature"
+                ]
+            },
+            {
+                "time": "13:25:38",
+                "lineIndex": 309,
+                "lines": [
+                    "        of natural processes, is there's a wide range of"
+                ]
+            },
+            {
+                "time": "13:25:40",
+                "lineIndex": 310,
+                "lines": [
+                    "        uncertainty.  So how did this turn out?  Well, again"
+                ]
+            },
+            {
+                "time": "13:25:46",
+                "lineIndex": 311,
+                "lines": [
+                    "        predictions got better as you got closer to landfall,"
+                ]
+            },
+            {
+                "time": "13:25:50",
+                "lineIndex": 312,
+                "lines": [
+                    "        but the prediction was at the edge.  It was maybe the"
+                ]
+            },
+            {
+                "time": "13:25:52",
+                "lineIndex": 313,
+                "lines": [
+                    "        far edge of one of the predictions."
+                ]
+            },
+            {
+                "time": "13:25:54",
+                "lineIndex": 314,
+                "lines": [
+                    "            So the landfall was actually just outside this"
+                ]
+            },
+            {
+                "time": "13:25:59",
+                "lineIndex": 315,
+                "lines": [
+                    "        range of uncertainty."
+                ]
+            },
+            {
+                "time": "13:26:02",
+                "lineIndex": 316,
+                "lines": [
+                    "            So here are the estimates from leading experts in"
+                ]
+            },
+            {
+                "time": "13:26:06",
+                "lineIndex": 317,
+                "lines": [
+                    "        the D1-D3 fields pre-production and it also had a wide"
+                ]
+            },
+            {
+                "time": "13:26:10",
+                "lineIndex": 318,
+                "lines": [
+                    "        range of uncertainty.  But you see, you know, coming"
+                ]
+            },
+            {
+                "time": "13:26:14",
+                "lineIndex": 319,
+                "lines": [
+                    "        from all the way from the low case, if you will, the"
+                ]
+            },
+            {
+                "time": "13:26:17",
+                "lineIndex": 320,
+                "lines": [
+                    "        best, the proved case of D&M, all the way to the 3P"
+                ]
+            },
+            {
+                "time": "13:26:24",
+                "lineIndex": 321,
+                "lines": [
+                    "        case, if you will, of Gaffney Cline."
+                ]
+            },
+            {
+                "time": "13:26:26",
+                "lineIndex": 322,
+                "lines": [
+                    "            You can see a range of expert estimates of what"
+                ]
+            },
+            {
+                "time": "13:26:29",
+                "lineIndex": 323,
+                "lines": [
+                    "        the OGIP is in the D1-D3 fields."
+                ]
+            },
+            {
+                "time": "13:26:34",
+                "lineIndex": 324,
+                "lines": [
+                    "            But landfall, if you will:"
+                ]
+            },
+            {
+                "time": "13:26:38",
+                "lineIndex": 325,
+                "lines": [
+                    "            \"Turned up to be herein a the edge of the range of"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 14,
+        "page": 14,
+        "data": [
+            {
+                "time": "13:26:40",
+                "lineIndex": 326,
+                "lines": [
+                    "        uncertainty and that just happens.  We see it in our"
+                ]
+            },
+            {
+                "time": "13:26:42",
+                "lineIndex": 327,
+                "lines": [
+                    "        business.\""
+                ]
+            },
+            {
+                "time": "13:26:43",
+                "lineIndex": 328,
+                "lines": [
+                    "            That you can do your best efforts to estimate gas"
+                ]
+            },
+            {
+                "time": "13:26:48",
+                "lineIndex": 329,
+                "lines": [
+                    "        in field, but sometimes it's just, you know, whatever"
+                ]
+            },
+            {
+                "time": "13:26:54",
+                "lineIndex": 330,
+                "lines": [
+                    "        circumstances more complexity, more a model that turns"
+                ]
+            },
+            {
+                "time": "13:26:57",
+                "lineIndex": 331,
+                "lines": [
+                    "        it not correct leads you to find out that it's"
+                ]
+            },
+            {
+                "time": "13:27:02",
+                "lineIndex": 332,
+                "lines": [
+                    "        actually much less than was predicted and that's what"
+                ]
+            },
+            {
+                "time": "13:27:04",
+                "lineIndex": 333,
+                "lines": [
+                    "        happened to the contractor here is that."
+                ]
+            },
+            {
+                "time": "13:27:06",
+                "lineIndex": 334,
+                "lines": [
+                    "     CHAIRMAN:  We will take a short break now."
+                ]
+            },
+            {
+                "time": "13:27:07",
+                "lineIndex": 335,
+                "lines": [
+                    "    (1.27 pm)"
+                ]
+            },
+            {
+                "time": "13:27:11",
+                "lineIndex": 336,
+                "lines": [
+                    "                          (Short break)"
+                ]
+            },
+            {
+                "time": "13:27:12",
+                "lineIndex": 337,
+                "lines": [
+                    "    (1.28 pm)"
+                ]
+            },
+            {
+                "time": "13:28:04",
+                "lineIndex": 338,
+                "lines": [
+                    "     CHAIRMAN:  Did you take remedial steps or cut our losses"
+                ]
+            },
+            {
+                "time": "13:28:08",
+                "lineIndex": 339,
+                "lines": [
+                    "        much earlier than we did?"
+                ]
+            },
+            {
+                "time": "13:28:11",
+                "lineIndex": 340,
+                "lines": [
+                    "            I'm sorry to keep taking you back to the core of"
+                ]
+            },
+            {
+                "time": "13:28:13",
+                "lineIndex": 341,
+                "lines": [
+                    "        the problem that is before us, but anything you can"
+                ]
+            },
+            {
+                "time": "13:28:17",
+                "lineIndex": 342,
+                "lines": [
+                    "        say on that -- I mean, this is an enormous variation,"
+                ]
+            },
+            {
+                "time": "13:28:20",
+                "lineIndex": 343,
+                "lines": [
+                    "        from a layman's point of view, in what the experts are"
+                ]
+            },
+            {
+                "time": "13:28:24",
+                "lineIndex": 344,
+                "lines": [
+                    "        saying."
+                ]
+            },
+            {
+                "time": "13:28:26",
+                "lineIndex": 345,
+                "lines": [
+                    "            Maybe that's relevant to the solution of the"
+                ]
+            },
+            {
+                "time": "13:28:28",
+                "lineIndex": 346,
+                "lines": [
+                    "        ultimate problem, but is that an unusual configuration"
+                ]
+            },
+            {
+                "time": "13:28:34",
+                "lineIndex": 347,
+                "lines": [
+                    "        that you're now showing us in the range of"
+                ]
+            },
+            {
+                "time": "13:28:36",
+                "lineIndex": 348,
+                "lines": [
+                    "        uncertainty?  Is that unusual in your business to have"
+                ]
+            },
+            {
+                "time": "13:28:41",
+                "lineIndex": 349,
+                "lines": [
+                    "        such variations from a well that appeared to be or"
+                ]
+            },
+            {
+                "time": "13:28:46",
+                "lineIndex": 350,
+                "lines": [
+                    "        source that appeared to be very promising at first?"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 15,
+        "page": 15,
+        "data": [
+            {
+                "time": "13:28:51",
+                "lineIndex": 351,
+                "lines": [
+                    "        The \"glorious days\", as Reliance called those first"
+                ]
+            },
+            {
+                "time": "13:28:55",
+                "lineIndex": 352,
+                "lines": [
+                    "        days, the \"glorious days of exploration\"."
+                ]
+            },
+            {
+                "time": "13:29:02",
+                "lineIndex": 353,
+                "lines": [
+                    "     A. I guess in our experience, it happens."
+                ]
+            },
+            {
+                "time": "13:29:06",
+                "lineIndex": 354,
+                "lines": [
+                    "            It's not real frequent, but if we look at what we"
+                ]
+            },
+            {
+                "time": "13:29:09",
+                "lineIndex": 355,
+                "lines": [
+                    "        see at the beginning, looking at the other side of the"
+                ]
+            },
+            {
+                "time": "13:29:14",
+                "lineIndex": 356,
+                "lines": [
+                    "        storm, landfall all those models were created by"
+                ]
+            },
+            {
+                "time": "13:29:24",
+                "lineIndex": 357,
+                "lines": [
+                    "        meteorologists that knew what they were doing, they"
+                ]
+            },
+            {
+                "time": "13:29:27",
+                "lineIndex": 358,
+                "lines": [
+                    "        were using the best technology at the time and the"
+                ]
+            },
+            {
+                "time": "13:29:32",
+                "lineIndex": 359,
+                "lines": [
+                    "        answer landed within the range of what was estimated"
+                ]
+            },
+            {
+                "time": "13:29:35",
+                "lineIndex": 360,
+                "lines": [
+                    "        and it was at the edge of the range and that's the"
+                ]
+            },
+            {
+                "time": "13:29:37",
+                "lineIndex": 361,
+                "lines": [
+                    "        situation we have here."
+                ]
+            },
+            {
+                "time": "13:29:41",
+                "lineIndex": 362,
+                "lines": [
+                    "     CHAIRMAN:  I would have thought that in this technology,"
+                ]
+            },
+            {
+                "time": "13:29:43",
+                "lineIndex": 363,
+                "lines": [
+                    "        in this context, there would have been much more"
+                ]
+            },
+            {
+                "time": "13:29:53",
+                "lineIndex": 364,
+                "lines": [
+                    "        commonality in the estimates, in fact, it's mildly"
+                ]
+            },
+            {
+                "time": "13:29:57",
+                "lineIndex": 365,
+                "lines": [
+                    "        shocking to see that GCA estimate 27.196 and landfall,"
+                ]
+            },
+            {
+                "time": "13:30:08",
+                "lineIndex": 366,
+                "lines": [
+                    "        it's to a layperson, it's seems that there's big"
+                ]
+            },
+            {
+                "time": "13:30:14",
+                "lineIndex": 367,
+                "lines": [
+                    "        variation?"
+                ]
+            },
+            {
+                "time": "13:30:17",
+                "lineIndex": 368,
+                "lines": [
+                    "     A. Yeah --"
+                ]
+            },
+            {
+                "time": "13:30:18",
+                "lineIndex": 369,
+                "lines": [
+                    "     CHAIRMAN:  The question is: ought that to have rung"
+                ]
+            },
+            {
+                "time": "13:30:20",
+                "lineIndex": 370,
+                "lines": [
+                    "        bells?  Which is what I think Prof Cameron is telling"
+                ]
+            },
+            {
+                "time": "13:30:25",
+                "lineIndex": 371,
+                "lines": [
+                    "        us.  It ought to have rung bells.  It ought to have"
+                ]
+            },
+            {
+                "time": "13:30:28",
+                "lineIndex": 372,
+                "lines": [
+                    "        alerted Reliance to the fact that this was not going"
+                ]
+            },
+            {
+                "time": "13:30:33",
+                "lineIndex": 373,
+                "lines": [
+                    "        to be the \"glorious days\".  This was a bummer."
+                ]
+            },
+            {
+                "time": "13:30:41",
+                "lineIndex": 374,
+                "lines": [
+                    "     A. We think there were several things that led to this."
+                ]
+            },
+            {
+                "time": "13:30:46",
+                "lineIndex": 375,
+                "lines": [
+                    "        We talked about log analysis."
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 16,
+        "page": 16,
+        "data": [
+            {
+                "time": "13:30:48",
+                "lineIndex": 376,
+                "lines": [
+                    "            You know, the estimating pay if the thin beds, so"
+                ]
+            },
+            {
+                "time": "13:30:52",
+                "lineIndex": 377,
+                "lines": [
+                    "        this was in early 2000s, you know, so these types of"
+                ]
+            },
+            {
+                "time": "13:30:56",
+                "lineIndex": 378,
+                "lines": [
+                    "        reservoirs were still being understood, you know, now"
+                ]
+            },
+            {
+                "time": "13:31:00",
+                "lineIndex": 379,
+                "lines": [
+                    "        they're much better understood."
+                ]
+            },
+            {
+                "time": "13:31:02",
+                "lineIndex": 380,
+                "lines": [
+                    "            You know, now threat does not have to be like"
+                ]
+            },
+            {
+                "time": "13:31:03",
+                "lineIndex": 381,
+                "lines": [
+                    "        this.  In various countries at this time, there were"
+                ]
+            },
+            {
+                "time": "13:31:07",
+                "lineIndex": 382,
+                "lines": [
+                    "        fewer and the technology to understand those thin beds"
+                ]
+            },
+            {
+                "time": "13:31:13",
+                "lineIndex": 383,
+                "lines": [
+                    "        that we talked about was evolving, frankly, and it"
+                ]
+            },
+            {
+                "time": "13:31:18",
+                "lineIndex": 384,
+                "lines": [
+                    "        appears that almost like a pendulum swinging too far"
+                ]
+            },
+            {
+                "time": "13:31:22",
+                "lineIndex": 385,
+                "lines": [
+                    "        that Schlumberger, who is an adviser to the"
+                ]
+            },
+            {
+                "time": "13:31:24",
+                "lineIndex": 386,
+                "lines": [
+                    "        contractor, you know, predicted, you know, quite a bit"
+                ]
+            },
+            {
+                "time": "13:31:29",
+                "lineIndex": 387,
+                "lines": [
+                    "        of pay in those thin beds and we think that because"
+                ]
+            },
+            {
+                "time": "13:31:33",
+                "lineIndex": 388,
+                "lines": [
+                    "        they went from a place where they couldn't see pay in"
+                ]
+            },
+            {
+                "time": "13:31:37",
+                "lineIndex": 389,
+                "lines": [
+                    "        thin beds at all, say so years earlier."
+                ]
+            },
+            {
+                "time": "13:31:40",
+                "lineIndex": 390,
+                "lines": [
+                    "            It's almost as if the pendulum swung, so they"
+                ]
+            },
+            {
+                "time": "13:31:43",
+                "lineIndex": 391,
+                "lines": [
+                    "        started to make a dispute and these how you get to"
+                ]
+            },
+            {
+                "time": "13:32:33",
+                "lineIndex": 392,
+                "lines": [
+                    "        16 TCF instead of 4, you know, it's those two factors."
+                ]
+            },
+            {
+                "time": "13:32:39",
+                "lineIndex": 393,
+                "lines": [
+                    "            You know, you have to weigh both of those to"
+                ]
+            },
+            {
+                "time": "13:32:41",
+                "lineIndex": 394,
+                "lines": [
+                    "        understand and understand that this was still evolving"
+                ]
+            },
+            {
+                "time": "13:32:45",
+                "lineIndex": 395,
+                "lines": [
+                    "        technologies, especially on the log analysis side in"
+                ]
+            },
+            {
+                "time": "13:32:48",
+                "lineIndex": 396,
+                "lines": [
+                    "        that timeframe."
+                ]
+            },
+            {
+                "time": "13:32:49",
+                "lineIndex": 397,
+                "lines": [
+                    "            It wasn't fully mature technology, because we"
+                ]
+            },
+            {
+                "time": "13:32:52",
+                "lineIndex": 398,
+                "lines": [
+                    "        hadn't seen if the industry we hadn't seen those types"
+                ]
+            },
+            {
+                "time": "13:32:55",
+                "lineIndex": 399,
+                "lines": [
+                    "        of reservoirs frequently in this type of environment"
+                ]
+            },
+            {
+                "time": "13:33:00",
+                "lineIndex": 400,
+                "lines": [
+                    "        and it took a while to understand them."
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 17,
+        "page": 17,
+        "data": [
+            {
+                "time": "13:33:02",
+                "lineIndex": 401,
+                "lines": [
+                    "            So that's my explanation, sir, as to how you could"
+                ]
+            },
+            {
+                "time": "13:33:07",
+                "lineIndex": 402,
+                "lines": [
+                    "        end up at that much difference."
+                ]
+            },
+            {
+                "time": "13:33:12",
+                "lineIndex": 403,
+                "lines": [
+                    "     CHAIRMAN:  Yes.  I interrupted you.  You press on with"
+                ]
+            },
+            {
+                "time": "13:33:14",
+                "lineIndex": 404,
+                "lines": [
+                    "        your final description."
+                ]
+            },
+            {
+                "time": "13:33:16",
+                "lineIndex": 405,
+                "lines": [
+                    "     A. Thank you, sir."
+                ]
+            },
+            {
+                "time": "13:33:20",
+                "lineIndex": 406,
+                "lines": [
+                    "            So once the data started come in indicating that"
+                ]
+            },
+            {
+                "time": "13:33:25",
+                "lineIndex": 407,
+                "lines": [
+                    "        the field was not as big as the AIDP, they had to make"
+                ]
+            },
+            {
+                "time": "13:33:29",
+                "lineIndex": 408,
+                "lines": [
+                    "        a turn and change how they evaluated developed the"
+                ]
+            },
+            {
+                "time": "13:33:33",
+                "lineIndex": 409,
+                "lines": [
+                    "        field, because and they did some pretty creative thing"
+                ]
+            },
+            {
+                "time": "13:33:39",
+                "lineIndex": 410,
+                "lines": [
+                    "        in our opinion, in managing the field that was much,"
+                ]
+            },
+            {
+                "time": "13:33:43",
+                "lineIndex": 411,
+                "lines": [
+                    "        much smaller."
+                ]
+            },
+            {
+                "time": "13:33:46",
+                "lineIndex": 412,
+                "lines": [
+                    "            As we talked about they design at world class data"
+                ]
+            },
+            {
+                "time": "13:33:49",
+                "lineIndex": 413,
+                "lines": [
+                    "        well production programme, once they got into the"
+                ]
+            },
+            {
+                "time": "13:33:52",
+                "lineIndex": 414,
+                "lines": [
+                    "        operations, any did some things that were pretty"
+                ]
+            },
+            {
+                "time": "13:33:55",
+                "lineIndex": 415,
+                "lines": [
+                    "        creative with managing pipelines and operating the"
+                ]
+            },
+            {
+                "time": "13:34:01",
+                "lineIndex": 416,
+                "lines": [
+                    "        filed for the D6 next to the D1-D3 using that"
+                ]
+            },
+            {
+                "time": "13:34:06",
+                "lineIndex": 417,
+                "lines": [
+                    "        commonality of the facilities and so we can cover that"
+                ]
+            },
+            {
+                "time": "13:34:12",
+                "lineIndex": 418,
+                "lines": [
+                    "        in more detail in our second report."
+                ]
+            },
+            {
+                "time": "13:34:16",
+                "lineIndex": 419,
+                "lines": [
+                    "            But in the interests of time, we'll try to move"
+                ]
+            },
+            {
+                "time": "13:34:22",
+                "lineIndex": 420,
+                "lines": [
+                    "        through."
+                ]
+            },
+            {
+                "time": "13:34:23",
+                "lineIndex": 421,
+                "lines": [
+                    "     CHAIRMAN:  Yes, please go ahead."
+                ]
+            },
+            {
+                "time": "13:34:24",
+                "lineIndex": 422,
+                "lines": [
+                    "     A. So we took a look at some of the claims that there was"
+                ]
+            },
+            {
+                "time": "13:34:29",
+                "lineIndex": 423,
+                "lines": [
+                    "        mismanagement going on in the field."
+                ]
+            },
+            {
+                "time": "13:34:33",
+                "lineIndex": 424,
+                "lines": [
+                    "     CHAIRMAN:  Is this a convenient point to break?  Because"
+                ]
+            },
+            {
+                "time": "13:34:36",
+                "lineIndex": 425,
+                "lines": [
+                    "        I think --"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 18,
+        "page": 18,
+        "data": [
+            {
+                "time": "13:34:37",
+                "lineIndex": 426,
+                "lines": [
+                    "     A. It can be, yeah."
+                ]
+            },
+            {
+                "time": "13:34:38",
+                "lineIndex": 427,
+                "lines": [
+                    "     CHAIRMAN:  I think you've got us to the point where"
+                ]
+            },
+            {
+                "time": "13:34:40",
+                "lineIndex": 428,
+                "lines": [
+                    "        you --"
+                ]
+            },
+            {
+                "time": "13:34:42",
+                "lineIndex": 429,
+                "lines": [
+                    "     A. We're making a turn."
+                ]
+            },
+            {
+                "time": "13:34:46",
+                "lineIndex": 430,
+                "lines": [
+                    "     CHAIRMAN:  It's now 12 o'clock, so if we take a cup of"
+                ]
+            },
+            {
+                "time": "13:34:51",
+                "lineIndex": 431,
+                "lines": [
+                    "        tea for quarter of an hour and then come back at about"
+                ]
+            },
+            {
+                "time": "13:34:54",
+                "lineIndex": 432,
+                "lines": [
+                    "        just after quarter past 12."
+                ]
+            },
+            {
+                "time": "13:34:57",
+                "lineIndex": 433,
+                "lines": [
+                    "            Please don't talk to others about your evidence"
+                ]
+            },
+            {
+                "time": "13:35:01",
+                "lineIndex": 434,
+                "lines": [
+                    "        and it will be more powerful if we have your"
+                ]
+            },
+            {
+                "time": "13:35:06",
+                "lineIndex": 435,
+                "lines": [
+                    "        unblemished, unaffected opinions."
+                ]
+            },
+            {
+                "time": "13:35:09",
+                "lineIndex": 436,
+                "lines": [
+                    "     A. Yes, sir."
+                ]
+            },
+            {
+                "time": "13:35:11",
+                "lineIndex": 437,
+                "lines": [
+                    "     CHAIRMAN:  The tribunal will adjourn now until 20"
+                ]
+            },
+            {
+                "time": "13:35:15",
+                "lineIndex": 438,
+                "lines": [
+                    "        past 12."
+                ]
+            },
+            {
+                "time": "13:35:21",
+                "lineIndex": 439,
+                "lines": [
+                    "     SIR BERNARD RIX:  You certainly should not be talking to"
+                ]
+            },
+            {
+                "time": "13:35:23",
+                "lineIndex": 440,
+                "lines": [
+                    "        lawyers during your evidence.  You're in a form of"
+                ]
+            },
+            {
+                "time": "13:35:26",
+                "lineIndex": 441,
+                "lines": [
+                    "        purdah."
+                ]
+            },
+            {
+                "time": "13:35:28",
+                "lineIndex": 442,
+                "lines": [
+                    "     WITNESS:  Understood."
+                ]
+            },
+            {
+                "time": "13:35:29",
+                "lineIndex": 443,
+                "lines": [
+                    "    (1.35 pm)"
+                ]
+            },
+            {
+                "time": "13:35:32",
+                "lineIndex": 444,
+                "lines": [
+                    "                          (Short break)"
+                ]
+            },
+            {
+                "time": "13:35:34",
+                "lineIndex": 445,
+                "lines": [
+                    "    (1.36 pm)"
+                ]
+            },
+            {
+                "time": "13:36:12",
+                "lineIndex": 446,
+                "lines": [
+                    "     MR KOHLI:  You didn't know history matching?"
+                ]
+            },
+            {
+                "time": "13:36:15",
+                "lineIndex": 447,
+                "lines": [
+                    "     A. Make sure there is a reason for going to this side of"
+                ]
+            },
+            {
+                "time": "13:36:16",
+                "lineIndex": 448,
+                "lines": [
+                    "        the well formation information."
+                ]
+            },
+            {
+                "time": "13:36:17",
+                "lineIndex": 449,
+                "lines": [
+                    "     SIR BERNARD RIX:  I'm not hearing you terribly well.  Can"
+                ]
+            },
+            {
+                "time": "13:36:19",
+                "lineIndex": 450,
+                "lines": [
+                    "        you move the microphone as close as possible."
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 19,
+        "page": 19,
+        "data": [
+            {
+                "time": "13:36:22",
+                "lineIndex": 451,
+                "lines": [
+                    "     A. Sorry.  Is that better?"
+                ]
+            },
+            {
+                "time": "13:36:23",
+                "lineIndex": 452,
+                "lines": [
+                    "     SIR BERNARD RIX:  The closer the better."
+                ]
+            },
+            {
+                "time": "13:36:24",
+                "lineIndex": 453,
+                "lines": [
+                    "     A. Okay.  Thank you."
+                ]
+            },
+            {
+                "time": "13:36:28",
+                "lineIndex": 454,
+                "lines": [
+                    "            Sorry, could you repeat your question?"
+                ]
+            },
+            {
+                "time": "13:36:32",
+                "lineIndex": 455,
+                "lines": [
+                    "     SIR BERNARD RIX:  I think you answered it, that you"
+                ]
+            },
+            {
+                "time": "13:36:34",
+                "lineIndex": 456,
+                "lines": [
+                    "        didn't go back to the beginning and then there may"
+                ]
+            },
+            {
+                "time": "13:36:36",
+                "lineIndex": 457,
+                "lines": [
+                    "        have been another question."
+                ]
+            },
+            {
+                "time": "13:36:40",
+                "lineIndex": 458,
+                "lines": [
+                    "     MS BAJAJ:  No, he didn't answer the question."
+                ]
+            },
+            {
+                "time": "13:36:47",
+                "lineIndex": 459,
+                "lines": [
+                    "     MR KOHLI:  No, sir.  They didn't answer the question."
+                ]
+            },
+            {
+                "time": "13:36:50",
+                "lineIndex": 460,
+                "lines": [
+                    "            Mr Spellman said they want to make sure that I'm"
+                ]
+            },
+            {
+                "time": "13:36:52",
+                "lineIndex": 461,
+                "lines": [
+                    "        answering your question here.  My question was -- just"
+                ]
+            },
+            {
+                "time": "13:36:59",
+                "lineIndex": 462,
+                "lines": [
+                    "        one moment."
+                ]
+            },
+            {
+                "time": "13:37:07",
+                "lineIndex": 463,
+                "lines": [
+                    "            Yeah.  My question was that you picked up the"
+                ]
+            },
+            {
+                "time": "13:37:10",
+                "lineIndex": 464,
+                "lines": [
+                    "        field as it was performing as a moving car:"
+                ]
+            },
+            {
+                "time": "13:37:13",
+                "lineIndex": 465,
+                "lines": [
+                    "            \"You didn't really check out from where it had"
+                ]
+            },
+            {
+                "time": "13:37:16",
+                "lineIndex": 466,
+                "lines": [
+                    "        started and what could have possibly gone wrong.\""
+                ]
+            },
+            {
+                "time": "13:37:33",
+                "lineIndex": 467,
+                "lines": [
+                    "     A. Our analysis went back to the beginning to the"
+                ]
+            },
+            {
+                "time": "13:37:38",
+                "lineIndex": 468,
+                "lines": [
+                    "        original gas in place and then recoverable estimating"
+                ]
+            },
+            {
+                "time": "13:37:42",
+                "lineIndex": 469,
+                "lines": [
+                    "        recoverable volumes."
+                ]
+            },
+            {
+                "time": "13:37:45",
+                "lineIndex": 470,
+                "lines": [
+                    " 4   Q. You were supposed to answer the question whether the"
+                ]
+            },
+            {
+                "time": "13:37:47",
+                "lineIndex": 471,
+                "lines": [
+                    "        contractor has been following good international"
+                ]
+            },
+            {
+                "time": "13:37:49",
+                "lineIndex": 472,
+                "lines": [
+                    "        petroleum industry practices during its operations;"
+                ]
+            },
+            {
+                "time": "13:37:56",
+                "lineIndex": 473,
+                "lines": [
+                    "        right?"
+                ]
+            },
+            {
+                "time": "13:37:56",
+                "lineIndex": 474,
+                "lines": [
+                    "     A. Yeah."
+                ]
+            },
+            {
+                "time": "13:37:57",
+                "lineIndex": 475,
+                "lines": [
+                    "     SIR BERNARD RIX:  Well, this is before.  It's in 2010."
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 20,
+        "page": 20,
+        "data": [
+            {
+                "time": "13:38:00",
+                "lineIndex": 476,
+                "lines": [
+                    "     MR KOHLI:  This is in 2010, sir, but I'm just saying"
+                ]
+            },
+            {
+                "time": "13:38:02",
+                "lineIndex": 477,
+                "lines": [
+                    "        that --"
+                ]
+            },
+            {
+                "time": "13:38:03",
+                "lineIndex": 478,
+                "lines": [
+                    "     SIR BERNARD RIX:  The question had not by asked by King"
+                ]
+            },
+            {
+                "time": "13:38:06",
+                "lineIndex": 479,
+                "lines": [
+                    "        & Spalding."
+                ]
+            },
+            {
+                "time": "13:38:07",
+                "lineIndex": 480,
+                "lines": [
+                    "     MR KOHLI:  That is true.  I'm just asking about whether"
+                ]
+            },
+            {
+                "time": "13:38:08",
+                "lineIndex": 481,
+                "lines": [
+                    "        in 2014, when those questions were asked to you, did"
+                ]
+            },
+            {
+                "time": "13:38:12",
+                "lineIndex": 482,
+                "lines": [
+                    "        you, at that time, go and check whether the field had"
+                ]
+            },
+            {
+                "time": "13:38:14",
+                "lineIndex": 483,
+                "lines": [
+                    "        been operating well since the beginning or did you"
+                ]
+            },
+            {
+                "time": "13:38:18",
+                "lineIndex": 484,
+                "lines": [
+                    "        not?  Because if you were to certify that they are"
+                ]
+            },
+            {
+                "time": "13:38:25",
+                "lineIndex": 485,
+                "lines": [
+                    "        following GIPIP, you would have checked it out right"
+                ]
+            },
+            {
+                "time": "13:38:28",
+                "lineIndex": 486,
+                "lines": [
+                    "        from the start.  Or did you check out whether they're"
+                ]
+            },
+            {
+                "time": "13:38:32",
+                "lineIndex": 487,
+                "lines": [
+                    "        following GIPIP after 2014?"
+                ]
+            },
+            {
+                "time": "13:38:35",
+                "lineIndex": 488,
+                "lines": [
+                    "     A. It would have been after 2024.  We looked at the"
+                ]
+            },
+            {
+                "time": "13:38:40",
+                "lineIndex": 489,
+                "lines": [
+                    "        current operations after 2014."
+                ]
+            },
+            {
+                "time": "13:38:48",
+                "lineIndex": 490,
+                "lines": [
+                    " 5   Q. So when you answer the question that the operator or"
+                ]
+            },
+            {
+                "time": "13:38:50",
+                "lineIndex": 491,
+                "lines": [
+                    "        the contractor has been following GIPIP, am I to"
+                ]
+            },
+            {
+                "time": "13:38:56",
+                "lineIndex": 492,
+                "lines": [
+                    "        understand that you mean that they've been following"
+                ]
+            },
+            {
+                "time": "13:38:59",
+                "lineIndex": 493,
+                "lines": [
+                    "        GIPIP after 2014?"
+                ]
+            },
+            {
+                "time": "13:39:03",
+                "lineIndex": 494,
+                "lines": [
+                    "     A. No."
+                ]
+            },
+            {
+                "time": "13:39:06",
+                "lineIndex": 495,
+                "lines": [
+                    " 6   Q. It's what you said."
+                ]
+            },
+            {
+                "time": "13:39:07",
+                "lineIndex": 496,
+                "lines": [
+                    "     A. Well, let me restate that, then, because I must have"
+                ]
+            },
+            {
+                "time": "13:39:11",
+                "lineIndex": 497,
+                "lines": [
+                    "        misspoke."
+                ]
+            },
+            {
+                "time": "13:39:14",
+                "lineIndex": 498,
+                "lines": [
+                    "            The engagement with King & Spalding was in 2014."
+                ]
+            },
+            {
+                "time": "13:39:18",
+                "lineIndex": 499,
+                "lines": [
+                    "        That included the three questions.  One of those"
+                ]
+            },
+            {
+                "time": "13:39:21",
+                "lineIndex": 500,
+                "lines": [
+                    "        questions was operations related."
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 21,
+        "page": 21,
+        "data": [
+            {
+                "time": "13:39:25",
+                "lineIndex": 501,
+                "lines": [
+                    "            Operations folks went back to, I guess,"
+                ]
+            },
+            {
+                "time": "13:39:28",
+                "lineIndex": 502,
+                "lines": [
+                    "        a combination of things.  To look at the development"
+                ]
+            },
+            {
+                "time": "13:39:31",
+                "lineIndex": 503,
+                "lines": [
+                    "        plan as it was executed and then also to look into"
+                ]
+            },
+            {
+                "time": "13:39:33",
+                "lineIndex": 504,
+                "lines": [
+                    "        various other things in the post-2014 timeframe which"
+                ]
+            },
+            {
+                "time": "13:39:40",
+                "lineIndex": 505,
+                "lines": [
+                    "        are the reports that you referred to."
+                ]
+            },
+            {
+                "time": "13:39:43",
+                "lineIndex": 506,
+                "lines": [
+                    " 7   Q. So am I to understand and please correct me, am I to"
+                ]
+            },
+            {
+                "time": "13:39:48",
+                "lineIndex": 507,
+                "lines": [
+                    "        understand, you went back and looked at the AIDP?"
+                ]
+            },
+            {
+                "time": "13:39:53",
+                "lineIndex": 508,
+                "lines": [
+                    "     A. We did not look at the AIDP.  We had our operations"
+                ]
+            },
+            {
+                "time": "13:39:57",
+                "lineIndex": 509,
+                "lines": [
+                    "        folks can look at how wells were drilled, they can"
+                ]
+            },
+            {
+                "time": "13:40:00",
+                "lineIndex": 510,
+                "lines": [
+                    "        look at completions and comment on that without"
+                ]
+            },
+            {
+                "time": "13:40:04",
+                "lineIndex": 511,
+                "lines": [
+                    "        knowing what the AIDP had in it."
+                ]
+            },
+            {
+                "time": "13:40:07",
+                "lineIndex": 512,
+                "lines": [
+                    " 8   Q. So how would you certify the operations as following"
+                ]
+            },
+            {
+                "time": "13:40:10",
+                "lineIndex": 513,
+                "lines": [
+                    "        GIPIP and then without looking at the development plan"
+                ]
+            },
+            {
+                "time": "13:40:13",
+                "lineIndex": 514,
+                "lines": [
+                    "        to say:"
+                ]
+            },
+            {
+                "time": "13:40:16",
+                "lineIndex": 515,
+                "lines": [
+                    "            \"Whether it's adhering to the development plan.\""
+                ]
+            },
+            {
+                "time": "13:40:20",
+                "lineIndex": 516,
+                "lines": [
+                    "     A. Your operations engineer can look at well completion"
+                ]
+            },
+            {
+                "time": "13:40:22",
+                "lineIndex": 517,
+                "lines": [
+                    "        reports to see how the wells were drilled."
+                ]
+            },
+            {
+                "time": "13:40:28",
+                "lineIndex": 518,
+                "lines": [
+                    "    (1.40 pm)"
+                ]
+            },
+            {
+                "time": "13:40:34",
+                "lineIndex": 519,
+                "lines": [
+                    "    (The hearing adjourned until 9.30 am on the following day)"
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 520,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 521,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 522,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 523,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 524,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 525,
+                "lines": [
+                    ""
+                ]
+            }
+        ]
+    }
+]

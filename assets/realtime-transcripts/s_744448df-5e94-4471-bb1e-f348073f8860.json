@@ -1,0 +1,2717 @@
+[
+    {
+        "msg": 1,
+        "page": 1,
+        "data": [
+            {
+                "time": "09:39:40",
+                "lineIndex": 1,
+                "lines": [
+                    "    \t\t\tP R O C E E D I N G S"
+                ]
+            },
+            {
+                "time": "09:40:44",
+                "lineIndex": 2,
+                "lines": [
+                    "     WITNESS:  Nobody is going to give you analogy A for your"
+                ]
+            },
+            {
+                "time": "09:40:47",
+                "lineIndex": 3,
+                "lines": [
+                    "        particular field.  You got to find out different"
+                ]
+            },
+            {
+                "time": "09:40:53",
+                "lineIndex": 4,
+                "lines": [
+                    "        elements from analogy from different fields all around"
+                ]
+            },
+            {
+                "time": "09:40:55",
+                "lineIndex": 5,
+                "lines": [
+                    "        the world.  This is exactly what we did in Chevron"
+                ]
+            },
+            {
+                "time": "09:41:01",
+                "lineIndex": 6,
+                "lines": [
+                    "        when I worked for them."
+                ]
+            },
+            {
+                "time": "09:41:02",
+                "lineIndex": 7,
+                "lines": [
+                    "                          MR JOHN SMITH"
+                ]
+            },
+            {
+                "time": "09:41:04",
+                "lineIndex": 8,
+                "lines": [
+                    "            Last but not least, we have to control our"
+                ]
+            },
+            {
+                "time": "09:41:11",
+                "lineIndex": 9,
+                "lines": [
+                    "        professional insight into problems we encounter."
+                ]
+            },
+            {
+                "time": "09:41:13",
+                "lineIndex": 10,
+                "lines": [
+                    "        We're not going to get 80, 85 per cent recovery when"
+                ]
+            },
+            {
+                "time": "09:41:21",
+                "lineIndex": 11,
+                "lines": [
+                    "        the reservoir is heterogeneous, when there is water"
+                ]
+            },
+            {
+                "time": "09:41:25",
+                "lineIndex": 12,
+                "lines": [
+                    "        influx, whether edge water or bottom water.  It"
+                ]
+            },
+            {
+                "time": "09:41:29",
+                "lineIndex": 13,
+                "lines": [
+                    "        doesn't matter."
+                ]
+            },
+            {
+                "time": "09:41:32",
+                "lineIndex": 14,
+                "lines": [
+                    "            When water hits the gas, it's not like a piston"
+                ]
+            },
+            {
+                "time": "09:41:37",
+                "lineIndex": 15,
+                "lines": [
+                    "        displacement.  It's a porous medium six water meanders"
+                ]
+            },
+            {
+                "time": "09:41:44",
+                "lineIndex": 16,
+                "lines": [
+                    "        through gas and traps the gas and I'm going to show it"
+                ]
+            },
+            {
+                "time": "09:41:48",
+                "lineIndex": 17,
+                "lines": [
+                    "        to you, sir.  A huge amount of gas can be trapped when"
+                ]
+            },
+            {
+                "time": "09:41:52",
+                "lineIndex": 18,
+                "lines": [
+                    "        the reservoir influx."
+                ]
+            },
+            {
+                "time": "09:41:55",
+                "lineIndex": 19,
+                "lines": [
+                    " 1   Q. So this is a summary of what should have happened and"
+                ]
+            },
+            {
+                "time": "09:41:59",
+                "lineIndex": 20,
+                "lines": [
+                    "        what didn't happen?"
+                ]
+            },
+            {
+                "time": "09:42:04",
+                "lineIndex": 21,
+                "lines": [
+                    "     A. Now, we're moving to the next slide, which is the"
+                ]
+            },
+            {
+                "time": "09:42:11",
+                "lineIndex": 22,
+                "lines": [
+                    "        fundamental principles of reservoir management."
+                ]
+            },
+            {
+                "time": "09:42:17",
+                "lineIndex": 23,
+                "lines": [
+                    "     CHAIRMAN:  We'll be discussing the guiding principles in"
+                ]
+            },
+            {
+                "time": "09:42:19",
+                "lineIndex": 24,
+                "lines": [
+                    "        what we're doing."
+                ]
+            },
+            {
+                "time": "09:42:24",
+                "lineIndex": 25,
+                "lines": [
+                    "            We'll be discussing what happened in terms of"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 2,
+        "page": 2,
+        "data": [
+            {
+                "time": "09:42:28",
+                "lineIndex": 26,
+                "lines": [
+                    "        reservoir management of this field."
+                ]
+            },
+            {
+                "time": "09:42:33",
+                "lineIndex": 27,
+                "lines": [
+                    "     A. And I was able to see a document that Government of"
+                ]
+            },
+            {
+                "time": "09:42:37",
+                "lineIndex": 28,
+                "lines": [
+                    "        India/DGH had regarding avoiding over-production,"
+                ]
+            },
+            {
+                "time": "09:42:48",
+                "lineIndex": 29,
+                "lines": [
+                    "        preventing early water breakthrough and optimising"
+                ]
+            },
+            {
+                "time": "09:42:53",
+                "lineIndex": 30,
+                "lines": [
+                    "        recovery.  It is realised, but can we practice these"
+                ]
+            },
+            {
+                "time": "09:43:00",
+                "lineIndex": 31,
+                "lines": [
+                    "        things?"
+                ]
+            },
+            {
+                "time": "09:43:05",
+                "lineIndex": 32,
+                "lines": [
+                    "     MR SALVE:  So now you are in India.  You got to love"
+                ]
+            },
+            {
+                "time": "09:43:09",
+                "lineIndex": 33,
+                "lines": [
+                    "        elephant also.  In fact, my name is named after the"
+                ]
+            },
+            {
+                "time": "09:43:18",
+                "lineIndex": 34,
+                "lines": [
+                    "        elephant God, Ganesha."
+                ]
+            },
+            {
+                "time": "09:43:23",
+                "lineIndex": 35,
+                "lines": [
+                    "            So we look at how do we balance ourselves as"
+                ]
+            },
+            {
+                "time": "09:43:30",
+                "lineIndex": 36,
+                "lines": [
+                    "        a reservoir management manager:"
+                ]
+            },
+            {
+                "time": "09:43:34",
+                "lineIndex": 37,
+                "lines": [
+                    "            \"We have a big load to carry.  Do this weekly and"
+                ]
+            },
+            {
+                "time": "09:43:40",
+                "lineIndex": 38,
+                "lines": [
+                    "        you will be able to extract more gas.  We all know"
+                ]
+            },
+            {
+                "time": "09:43:42",
+                "lineIndex": 39,
+                "lines": [
+                    "        investment confidence is proportional to the certainty"
+                ]
+            },
+            {
+                "time": "09:43:48",
+                "lineIndex": 40,
+                "lines": [
+                    "        of the outcome.\""
+                ]
+            },
+            {
+                "time": "09:43:50",
+                "lineIndex": 41,
+                "lines": [
+                    "            So investment decision in D1-D3 required is"
+                ]
+            },
+            {
+                "time": "09:43:56",
+                "lineIndex": 42,
+                "lines": [
+                    "        special care.  We need to be cautious and judicious."
+                ]
+            },
+            {
+                "time": "09:44:05",
+                "lineIndex": 43,
+                "lines": [
+                    "        In our forecast of OGIP recovery factor, RF, reserves,"
+                ]
+            },
+            {
+                "time": "09:44:12",
+                "lineIndex": 44,
+                "lines": [
+                    "        facilities design and reservoir management."
+                ]
+            },
+            {
+                "time": "09:44:20",
+                "lineIndex": 45,
+                "lines": [
+                    "            In Hindi, or Gujarati, we have a proverb \"Hindi"
+                ]
+            },
+            {
+                "time": "09:44:24",
+                "lineIndex": 46,
+                "lines": [
+                    "        spoken\", translated in English \"a cautious person is"
+                ]
+            },
+            {
+                "time": "09:44:36",
+                "lineIndex": 47,
+                "lines": [
+                    "        always happy.\""
+                ]
+            },
+            {
+                "time": "09:44:38",
+                "lineIndex": 48,
+                "lines": [
+                    "            Then we look at exposure to risks can be optimised"
+                ]
+            },
+            {
+                "time": "09:44:46",
+                "lineIndex": 49,
+                "lines": [
+                    "        through economic honesty in estimating OGIP and"
+                ]
+            },
+            {
+                "time": "09:44:54",
+                "lineIndex": 50,
+                "lines": [
+                    "        reserves."
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 3,
+        "page": 3,
+        "data": [
+            {
+                "time": "09:44:56",
+                "lineIndex": 51,
+                "lines": [
+                    "            Maybe a cautious person would never go into"
+                ]
+            },
+            {
+                "time": "09:44:58",
+                "lineIndex": 52,
+                "lines": [
+                    "        hydrocarbon recovery?"
+                ]
+            },
+            {
+                "time": "09:45:02",
+                "lineIndex": 53,
+                "lines": [
+                    "     A. Sir, I am cautious person and I have made a very good"
+                ]
+            },
+            {
+                "time": "09:45:06",
+                "lineIndex": 54,
+                "lines": [
+                    "        living in the hydrocarbon business, for the last"
+                ]
+            },
+            {
+                "time": "09:45:10",
+                "lineIndex": 55,
+                "lines": [
+                    "        55 years."
+                ]
+            },
+            {
+                "time": "09:45:13",
+                "lineIndex": 56,
+                "lines": [
+                    "     CHAIRMAN:  But you're over there in Houston.  You can't"
+                ]
+            },
+            {
+                "time": "09:45:16",
+                "lineIndex": 57,
+                "lines": [
+                    "        do all of the cases that come up, including in India,"
+                ]
+            },
+            {
+                "time": "09:45:20",
+                "lineIndex": 58,
+                "lines": [
+                    "        and the contractor had very good technical advisory"
+                ]
+            },
+            {
+                "time": "09:45:25",
+                "lineIndex": 59,
+                "lines": [
+                    "        people.  You say they made mistakes and that's what"
+                ]
+            },
+            {
+                "time": "09:45:29",
+                "lineIndex": 60,
+                "lines": [
+                    "        we've got to focus on."
+                ]
+            },
+            {
+                "time": "09:45:31",
+                "lineIndex": 61,
+                "lines": [
+                    "            But amongst the many differences, that's the"
+                ]
+            },
+            {
+                "time": "09:45:38",
+                "lineIndex": 62,
+                "lines": [
+                    "        nature of professionalism?"
+                ]
+            },
+            {
+                "time": "09:45:41",
+                "lineIndex": 63,
+                "lines": [
+                    "     A. Absolutely.  Just like two doctors have slightly"
+                ]
+            },
+            {
+                "time": "09:45:44",
+                "lineIndex": 64,
+                "lines": [
+                    "        different opinions regarding the same patient at times"
+                ]
+            },
+            {
+                "time": "09:45:49",
+                "lineIndex": 65,
+                "lines": [
+                    "        and that is okay."
+                ]
+            },
+            {
+                "time": "09:45:52",
+                "lineIndex": 66,
+                "lines": [
+                    "            Technical sincerity regarding connectivity,"
+                ]
+            },
+            {
+                "time": "09:45:58",
+                "lineIndex": 67,
+                "lines": [
+                    "        deliverability, delta \"P\", pressure drop, excessive"
+                ]
+            },
+            {
+                "time": "09:46:03",
+                "lineIndex": 68,
+                "lines": [
+                    "        production rates.  These are what to focus on in"
+                ]
+            },
+            {
+                "time": "09:46:07",
+                "lineIndex": 69,
+                "lines": [
+                    "        bringing the humility."
+                ]
+            },
+            {
+                "time": "09:46:11",
+                "lineIndex": 70,
+                "lines": [
+                    "            What I have learned is that more I study, more"
+                ]
+            },
+            {
+                "time": "09:46:18",
+                "lineIndex": 71,
+                "lines": [
+                    "        I feel I know less about the subject.  Because things"
+                ]
+            },
+            {
+                "time": "09:46:27",
+                "lineIndex": 72,
+                "lines": [
+                    "        are complicated and we have to realise respect the"
+                ]
+            },
+            {
+                "time": "09:46:36",
+                "lineIndex": 73,
+                "lines": [
+                    "        force of nature."
+                ]
+            },
+            {
+                "time": "09:46:39",
+                "lineIndex": 74,
+                "lines": [
+                    "            So now we moving to risk and uncertainties."
+                ]
+            },
+            {
+                "time": "09:46:46",
+                "lineIndex": 75,
+                "lines": [
+                    "        Definition of risk, exposure to danger, but that can"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 4,
+        "page": 4,
+        "data": [
+            {
+                "time": "09:46:51",
+                "lineIndex": 76,
+                "lines": [
+                    "        be minimised through preventive measures."
+                ]
+            },
+            {
+                "time": "09:46:56",
+                "lineIndex": 77,
+                "lines": [
+                    "            These are the GIPIP of our industry.  Definition"
+                ]
+            },
+            {
+                "time": "09:47:01",
+                "lineIndex": 78,
+                "lines": [
+                    "        of uncertainty, there are multiple outcomes.  Because"
+                ]
+            },
+            {
+                "time": "09:47:08",
+                "lineIndex": 79,
+                "lines": [
+                    "        there is insufficient information."
+                ]
+            },
+            {
+                "time": "09:47:12",
+                "lineIndex": 80,
+                "lines": [
+                    "            We cannot eliminate the risk, but how we manage"
+                ]
+            },
+            {
+                "time": "09:47:16",
+                "lineIndex": 81,
+                "lines": [
+                    "        the risk and reduce the uncertainty is very important."
+                ]
+            },
+            {
+                "time": "09:47:22",
+                "lineIndex": 82,
+                "lines": [
+                    "        In our business, sir, there is no silver bullet, but"
+                ]
+            },
+            {
+                "time": "09:47:29",
+                "lineIndex": 83,
+                "lines": [
+                    "        E&P industry continues to flourish."
+                ]
+            },
+            {
+                "time": "09:47:34",
+                "lineIndex": 84,
+                "lines": [
+                    "            Today US is producing 13.3 million barrels of oil"
+                ]
+            },
+            {
+                "time": "09:47:40",
+                "lineIndex": 85,
+                "lines": [
+                    "        per day.  Production in the US is higher than ever"
+                ]
+            },
+            {
+                "time": "09:47:46",
+                "lineIndex": 86,
+                "lines": [
+                    "        been before.  So this industry is flourishing.  We"
+                ]
+            },
+            {
+                "time": "09:47:56",
+                "lineIndex": 87,
+                "lines": [
+                    "        just have to be careful and manage the projects"
+                ]
+            },
+            {
+                "time": "09:47:58",
+                "lineIndex": 88,
+                "lines": [
+                    "        appropriately."
+                ]
+            },
+            {
+                "time": "09:48:01",
+                "lineIndex": 89,
+                "lines": [
+                    "            I always believe defence wins the championship."
+                ]
+            },
+            {
+                "time": "09:48:07",
+                "lineIndex": 90,
+                "lines": [
+                    "     CHAIRMAN:  So that's the philosophy I have always"
+                ]
+            },
+            {
+                "time": "09:48:11",
+                "lineIndex": 91,
+                "lines": [
+                    "        followed."
+                ]
+            },
+            {
+                "time": "09:48:12",
+                "lineIndex": 92,
+                "lines": [
+                    "            Now look at approach, especially if we don't know"
+                ]
+            },
+            {
+                "time": "09:48:18",
+                "lineIndex": 93,
+                "lines": [
+                    "        enough about our reservoir and is listed in this"
+                ]
+            },
+            {
+                "time": "09:48:26",
+                "lineIndex": 94,
+                "lines": [
+                    "        particular slide in a sequential way what we could do"
+                ]
+            },
+            {
+                "time": "09:48:31",
+                "lineIndex": 95,
+                "lines": [
+                    "        to make a project like this successful."
+                ]
+            },
+            {
+                "time": "09:48:43",
+                "lineIndex": 96,
+                "lines": [
+                    "            I'm not going to glance through them.  They are"
+                ]
+            },
+            {
+                "time": "09:48:46",
+                "lineIndex": 97,
+                "lines": [
+                    "        described in a sequential phase."
+                ]
+            },
+            {
+                "time": "09:49:01",
+                "lineIndex": 98,
+                "lines": [
+                    " 2   Q. Kindly look at this item 3, \"EWT\", extended well test,"
+                ]
+            },
+            {
+                "time": "09:49:04",
+                "lineIndex": 99,
+                "lines": [
+                    "        \"EPT\", early production test, and producing a few"
+                ]
+            },
+            {
+                "time": "09:49:10",
+                "lineIndex": 100,
+                "lines": [
+                    "        wells very fast, producing a few wells early on for"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 5,
+        "page": 5,
+        "data": [
+            {
+                "time": "09:49:16",
+                "lineIndex": 101,
+                "lines": [
+                    "        a limited time and creating the data that you create"
+                ]
+            },
+            {
+                "time": "09:49:23",
+                "lineIndex": 102,
+                "lines": [
+                    "        in the production phase you create that data early on."
+                ]
+            },
+            {
+                "time": "09:49:29",
+                "lineIndex": 103,
+                "lines": [
+                    "            You collect that data early on?"
+                ]
+            },
+            {
+                "time": "09:49:32",
+                "lineIndex": 104,
+                "lines": [
+                    "     A. And you calibrate your reservoir model to make"
+                ]
+            },
+            {
+                "time": "09:49:37",
+                "lineIndex": 105,
+                "lines": [
+                    "        a forecast.  Then this is what we followed exactly in"
+                ]
+            },
+            {
+                "time": "09:49:43",
+                "lineIndex": 106,
+                "lines": [
+                    "        2004 in the Jansz and Sanholo fields in the deep water"
+                ]
+            },
+            {
+                "time": "09:49:50",
+                "lineIndex": 107,
+                "lines": [
+                    "        of Gulf of Mexico."
+                ]
+            },
+            {
+                "time": "09:49:51",
+                "lineIndex": 108,
+                "lines": [
+                    "            I'm very proud to tell you, sir, that was a very"
+                ]
+            },
+            {
+                "time": "09:49:55",
+                "lineIndex": 109,
+                "lines": [
+                    "        difficult formation called Wilcox formation.  The net"
+                ]
+            },
+            {
+                "time": "09:50:00",
+                "lineIndex": 110,
+                "lines": [
+                    "        to gross ratio in that field is even more complicated"
+                ]
+            },
+            {
+                "time": "09:50:05",
+                "lineIndex": 111,
+                "lines": [
+                    "        than D1-D3."
+                ]
+            },
+            {
+                "time": "09:50:08",
+                "lineIndex": 112,
+                "lines": [
+                    "            So I didn't know how to make a production forecast"
+                ]
+            },
+            {
+                "time": "09:50:11",
+                "lineIndex": 113,
+                "lines": [
+                    "        just using simulation and material balancing equation."
+                ]
+            },
+            {
+                "time": "09:50:16",
+                "lineIndex": 114,
+                "lines": [
+                    "     SIR BERNARD RIX:  So what we had to do?"
+                ]
+            },
+            {
+                "time": "09:50:19",
+                "lineIndex": 115,
+                "lines": [
+                    "     A. Is do early production test.  Because production test"
+                ]
+            },
+            {
+                "time": "09:50:25",
+                "lineIndex": 116,
+                "lines": [
+                    "        is your gold standard for these kind of projects."
+                ]
+            },
+            {
+                "time": "09:50:36",
+                "lineIndex": 117,
+                "lines": [
+                    " 3   Q. Geological means and geophysical means alone."
+                ]
+            },
+            {
+                "time": "09:50:39",
+                "lineIndex": 118,
+                "lines": [
+                    "            It has to be holistic.  It has to be integrated?"
+                ]
+            },
+            {
+                "time": "09:50:47",
+                "lineIndex": 119,
+                "lines": [
+                    "     A. So now we move to the guiding principles of GIPIP and"
+                ]
+            },
+            {
+                "time": "09:50:55",
+                "lineIndex": 120,
+                "lines": [
+                    "        UK has done a great job in providing a good field"
+                ]
+            },
+            {
+                "time": "09:51:02",
+                "lineIndex": 121,
+                "lines": [
+                    "        development planning guidelines that you see the"
+                ]
+            },
+            {
+                "time": "09:51:07",
+                "lineIndex": 122,
+                "lines": [
+                    "        reference here.  Once again, EWT is extended well test"
+                ]
+            },
+            {
+                "time": "09:51:15",
+                "lineIndex": 123,
+                "lines": [
+                    "        that you produce the well for an extended time period."
+                ]
+            },
+            {
+                "time": "09:51:20",
+                "lineIndex": 124,
+                "lines": [
+                    "            Early test is very similar and you produce the"
+                ]
+            },
+            {
+                "time": "09:51:25",
+                "lineIndex": 125,
+                "lines": [
+                    "        well as early as possible and collecting the data."
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 6,
+        "page": 6,
+        "data": [
+            {
+                "time": "09:51:32",
+                "lineIndex": 126,
+                "lines": [
+                    "            The purpose of EWT and/or ep T is to obtain"
+                ]
+            },
+            {
+                "time": "09:51:38",
+                "lineIndex": 127,
+                "lines": [
+                    "        essential field and then reservoir information and"
+                ]
+            },
+            {
+                "time": "09:51:44",
+                "lineIndex": 128,
+                "lines": [
+                    "        follow a phased development approach by producing and"
+                ]
+            },
+            {
+                "time": "09:51:53",
+                "lineIndex": 129,
+                "lines": [
+                    "        production, in a phased development approach is what"
+                ]
+            },
+            {
+                "time": "09:51:56",
+                "lineIndex": 130,
+                "lines": [
+                    "        we need to follow."
+                ]
+            },
+            {
+                "time": "09:52:00",
+                "lineIndex": 131,
+                "lines": [
+                    "            The key fact, features of FDP also and will be an"
+                ]
+            },
+            {
+                "time": "09:52:07",
+                "lineIndex": 132,
+                "lines": [
+                    "        explanation of the commitments that the licensees are"
+                ]
+            },
+            {
+                "time": "09:52:10",
+                "lineIndex": 133,
+                "lines": [
+                    "        making regarding facilities, number of wells, to bring"
+                ]
+            },
+            {
+                "time": "09:52:15",
+                "lineIndex": 134,
+                "lines": [
+                    "        forward a sound development."
+                ]
+            },
+            {
+                "time": "09:52:18",
+                "lineIndex": 135,
+                "lines": [
+                    "    (9.52 am)"
+                ]
+            },
+            {
+                "time": "09:52:21",
+                "lineIndex": 136,
+                "lines": [
+                    "                          (Short break)"
+                ]
+            },
+            {
+                "time": "09:52:22",
+                "lineIndex": 137,
+                "lines": [
+                    "    (9.53 am)"
+                ]
+            },
+            {
+                "time": "09:53:17",
+                "lineIndex": 138,
+                "lines": [
+                    "     CHAIRMAN:  The operator did not estimate reserves"
+                ]
+            },
+            {
+                "time": "09:53:20",
+                "lineIndex": 139,
+                "lines": [
+                    "        properly."
+                ]
+            },
+            {
+                "time": "09:53:23",
+                "lineIndex": 140,
+                "lines": [
+                    "     A. There was improper characterisation of reservoir."
+                ]
+            },
+            {
+                "time": "09:53:28",
+                "lineIndex": 141,
+                "lines": [
+                    "        Reservoir simulation was not used effectively,"
+                ]
+            },
+            {
+                "time": "09:53:34",
+                "lineIndex": 142,
+                "lines": [
+                    "        sensitivity analysis were not performed appropriately."
+                ]
+            },
+            {
+                "time": "09:53:39",
+                "lineIndex": 143,
+                "lines": [
+                    "        The drive mechanisms were not simulated effectively."
+                ]
+            },
+            {
+                "time": "09:53:48",
+                "lineIndex": 144,
+                "lines": [
+                    "            Any time an operator doesn't follow the process,"
+                ]
+            },
+            {
+                "time": "09:53:57",
+                "lineIndex": 145,
+                "lines": [
+                    "        we get burned.  If we follow the process, still there"
+                ]
+            },
+            {
+                "time": "09:54:04",
+                "lineIndex": 146,
+                "lines": [
+                    "        is no 100 per cent guarantee, but the chance of"
+                ]
+            },
+            {
+                "time": "09:54:08",
+                "lineIndex": 147,
+                "lines": [
+                    "        success is very high -- very high."
+                ]
+            },
+            {
+                "time": "09:54:13",
+                "lineIndex": 148,
+                "lines": [
+                    " 4   Q. So this is coming out of directly PRMS 2007 is what"
+                ]
+            },
+            {
+                "time": "09:54:17",
+                "lineIndex": 149,
+                "lines": [
+                    "        often happens, and we had in D1-D3, such as those"
+                ]
+            },
+            {
+                "time": "09:54:28",
+                "lineIndex": 150,
+                "lines": [
+                    "        involving water influx we had water influx."
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 7,
+        "page": 7,
+        "data": [
+            {
+                "time": "09:54:34",
+                "lineIndex": 151,
+                "lines": [
+                    "            So we had multi-phase behaviour:"
+                ]
+            },
+            {
+                "time": "09:54:36",
+                "lineIndex": 152,
+                "lines": [
+                    "            \"We have a multi-layered system and then it's like"
+                ]
+            },
+            {
+                "time": "09:54:39",
+                "lineIndex": 153,
+                "lines": [
+                    "        this and it means this means the reservoir is not like"
+                ]
+            },
+            {
+                "time": "09:54:42",
+                "lineIndex": 154,
+                "lines": [
+                    "        a sand box.\""
+                ]
+            },
+            {
+                "time": "09:54:45",
+                "lineIndex": 155,
+                "lines": [
+                    "     A. The reservoir has many layers like a layered cake and"
+                ]
+            },
+            {
+                "time": "09:54:51",
+                "lineIndex": 156,
+                "lines": [
+                    "        each layer has sometimes different permeabilities.  So"
+                ]
+            },
+            {
+                "time": "09:54:58",
+                "lineIndex": 157,
+                "lines": [
+                    "        the gas and water phases flow at different velocities"
+                ]
+            },
+            {
+                "time": "09:55:03",
+                "lineIndex": 158,
+                "lines": [
+                    "        in these layers."
+                ]
+            },
+            {
+                "time": "09:55:07",
+                "lineIndex": 159,
+                "lines": [
+                    " 5   Q. So there is no way you can stop the water.  So"
+                ]
+            },
+            {
+                "time": "09:55:13",
+                "lineIndex": 160,
+                "lines": [
+                    "        overproducing a given field at a high rate in"
+                ]
+            },
+            {
+                "time": "09:55:16",
+                "lineIndex": 161,
+                "lines": [
+                    "        a multi-layered reservoir, come on, it's not possible."
+                ]
+            },
+            {
+                "time": "09:55:29",
+                "lineIndex": 162,
+                "lines": [
+                    "        Also the predictive models are most reliable in"
+                ]
+            },
+            {
+                "time": "09:55:33",
+                "lineIndex": 163,
+                "lines": [
+                    "        estimating recoverable reserves when there is enough"
+                ]
+            },
+            {
+                "time": "09:55:39",
+                "lineIndex": 164,
+                "lines": [
+                    "        production historical data, which wasn't here present."
+                ]
+            },
+            {
+                "time": "09:55:47",
+                "lineIndex": 165,
+                "lines": [
+                    "            So can't rely on models only.  You got to be"
+                ]
+            },
+            {
+                "time": "09:55:50",
+                "lineIndex": 166,
+                "lines": [
+                    "        cautious.  You got to be ready?"
+                ]
+            },
+            {
+                "time": "09:55:55",
+                "lineIndex": 167,
+                "lines": [
+                    "     A. For these kind of scenarios.  If we are not careful,"
+                ]
+            },
+            {
+                "time": "09:56:03",
+                "lineIndex": 168,
+                "lines": [
+                    "        we get burned."
+                ]
+            },
+            {
+                "time": "09:56:06",
+                "lineIndex": 169,
+                "lines": [
+                    "     JUSTICE KHARE:  That's exactly what happens."
+                ]
+            },
+            {
+                "time": "09:56:10",
+                "lineIndex": 170,
+                "lines": [
+                    "     A. Guiding principles for GIPIP models must match"
+                ]
+            },
+            {
+                "time": "09:56:16",
+                "lineIndex": 171,
+                "lines": [
+                    "        reality.  Validate the model.  Don't just model it."
+                ]
+            },
+            {
+                "time": "09:56:26",
+                "lineIndex": 172,
+                "lines": [
+                    "        Because if the models are not validated, they are not"
+                ]
+            },
+            {
+                "time": "09:56:30",
+                "lineIndex": 173,
+                "lines": [
+                    "        useful.  They're only a scientific tool.  How do we"
+                ]
+            },
+            {
+                "time": "09:56:37",
+                "lineIndex": 174,
+                "lines": [
+                    "        use that scientific tool is also very important."
+                ]
+            },
+            {
+                "time": "09:56:43",
+                "lineIndex": 175,
+                "lines": [
+                    "            In IDL situation, if the reservoir was completely"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 8,
+        "page": 8,
+        "data": [
+            {
+                "time": "09:56:48",
+                "lineIndex": 176,
+                "lines": [
+                    "        homogeneous in the D1-D3 field, if all the sands"
+                ]
+            },
+            {
+                "time": "09:56:56",
+                "lineIndex": 177,
+                "lines": [
+                    "        behave the same way, if they were continuous, if they"
+                ]
+            },
+            {
+                "time": "09:57:02",
+                "lineIndex": 178,
+                "lines": [
+                    "        were isotropic, that means permeabilities in different"
+                ]
+            },
+            {
+                "time": "09:57:09",
+                "lineIndex": 179,
+                "lines": [
+                    "        directions are the same and if there is sufficient"
+                ]
+            },
+            {
+                "time": "09:57:15",
+                "lineIndex": 180,
+                "lines": [
+                    "        high quality pressure data is available, just having"
+                ]
+            },
+            {
+                "time": "09:57:20",
+                "lineIndex": 181,
+                "lines": [
+                    "        the pressure data from the MDT is not that useful for"
+                ]
+            },
+            {
+                "time": "09:57:26",
+                "lineIndex": 182,
+                "lines": [
+                    "        material balance methodology."
+                ]
+            },
+            {
+                "time": "09:57:32",
+                "lineIndex": 183,
+                "lines": [
+                    "            If we rely on material balance only, we're going"
+                ]
+            },
+            {
+                "time": "09:57:36",
+                "lineIndex": 184,
+                "lines": [
+                    "        to get surprises.  This is what we got to focus on."
+                ]
+            },
+            {
+                "time": "09:57:42",
+                "lineIndex": 185,
+                "lines": [
+                    "        The predictive models are most reliable in estimating"
+                ]
+            },
+            {
+                "time": "09:57:48",
+                "lineIndex": 186,
+                "lines": [
+                    "        recoverable quantities when there is sufficient"
+                ]
+            },
+            {
+                "time": "09:57:52",
+                "lineIndex": 187,
+                "lines": [
+                    "        production history to validate the model.  If we don't"
+                ]
+            },
+            {
+                "time": "09:57:58",
+                "lineIndex": 188,
+                "lines": [
+                    "        have this, we got difficulties."
+                ]
+            },
+            {
+                "time": "09:58:02",
+                "lineIndex": 189,
+                "lines": [
+                    "            Moving now onto reserves.  What we see here on"
+                ]
+            },
+            {
+                "time": "09:58:13",
+                "lineIndex": 190,
+                "lines": [
+                    "        this graph on the right side is the reserves value on"
+                ]
+            },
+            {
+                "time": "09:58:19",
+                "lineIndex": 191,
+                "lines": [
+                    "        the vertical axis and they are proved reserves, P1,"
+                ]
+            },
+            {
+                "time": "09:58:27",
+                "lineIndex": 192,
+                "lines": [
+                    "        with more than 90 per cent confidence.  Equal to or"
+                ]
+            },
+            {
+                "time": "09:58:35",
+                "lineIndex": 193,
+                "lines": [
+                    "        more than 90 per cent confidence."
+                ]
+            },
+            {
+                "time": "09:58:37",
+                "lineIndex": 194,
+                "lines": [
+                    "            Horizontal axis gives different estimates which"
+                ]
+            },
+            {
+                "time": "09:58:41",
+                "lineIndex": 195,
+                "lines": [
+                    "        are available."
+                ]
+            },
+            {
+                "time": "09:58:47",
+                "lineIndex": 196,
+                "lines": [
+                    "            These are by different reports, GCA, D&M, PGS, RIL"
+                ]
+            },
+            {
+                "time": "09:58:58",
+                "lineIndex": 197,
+                "lines": [
+                    "        and different sized entities have come up with"
+                ]
+            },
+            {
+                "time": "09:59:03",
+                "lineIndex": 198,
+                "lines": [
+                    "        different estimates of P1 reserves."
+                ]
+            },
+            {
+                "time": "09:59:08",
+                "lineIndex": 199,
+                "lines": [
+                    "            If you look at the values until 2006, until 2007,"
+                ]
+            },
+            {
+                "time": "09:59:19",
+                "lineIndex": 200,
+                "lines": [
+                    "        except for one value, where would be our P1 reserves"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 9,
+        "page": 9,
+        "data": [
+            {
+                "time": "09:59:25",
+                "lineIndex": 201,
+                "lines": [
+                    "        estimates from this data?  Can anybody guess?"
+                ]
+            },
+            {
+                "time": "09:59:31",
+                "lineIndex": 202,
+                "lines": [
+                    "            My honourable counsel, can you guess the values"
+                ]
+            },
+            {
+                "time": "09:59:35",
+                "lineIndex": 203,
+                "lines": [
+                    "        that we would get?"
+                ]
+            },
+            {
+                "time": "09:59:39",
+                "lineIndex": 204,
+                "lines": [
+                    "            You know, anybody can guess the value is going to"
+                ]
+            },
+            {
+                "time": "09:59:41",
+                "lineIndex": 205,
+                "lines": [
+                    "        be 7 or 8.  No, that's an outlier.  The value is going"
+                ]
+            },
+            {
+                "time": "09:59:47",
+                "lineIndex": 206,
+                "lines": [
+                    "        to be around 3 plus/minus -- 3.5."
+                ]
+            },
+            {
+                "time": "09:59:56",
+                "lineIndex": 207,
+                "lines": [
+                    "            Well, in this field, we've produced 2.3."
+                ]
+            },
+            {
+                "time": "10:00:03",
+                "lineIndex": 208,
+                "lines": [
+                    " 6   Q. That's what you're looking for."
+                ]
+            },
+            {
+                "time": "10:00:07",
+                "lineIndex": 209,
+                "lines": [
+                    "     A. P1 reserves, especially in the US, Security and"
+                ]
+            },
+            {
+                "time": "10:00:13",
+                "lineIndex": 210,
+                "lines": [
+                    "        Exchange Commission goes after you in your P1 reserves"
+                ]
+            },
+            {
+                "time": "10:00:20",
+                "lineIndex": 211,
+                "lines": [
+                    "        are off.  Look at what happened to Shell in 2004."
+                ]
+            },
+            {
+                "time": "10:00:27",
+                "lineIndex": 212,
+                "lines": [
+                    "     CHAIRMAN:  I saw that mentioned in a footnote at some"
+                ]
+            },
+            {
+                "time": "10:00:30",
+                "lineIndex": 213,
+                "lines": [
+                    "        stage I'd be interested to know?"
+                ]
+            },
+            {
+                "time": "10:00:34",
+                "lineIndex": 214,
+                "lines": [
+                    "     A. Absolutely, sir.  Absolutely, sir."
+                ]
+            },
+            {
+                "time": "10:00:36",
+                "lineIndex": 215,
+                "lines": [
+                    "            P1 reserves, it is really like in the US, when"
+                ]
+            },
+            {
+                "time": "10:00:42",
+                "lineIndex": 216,
+                "lines": [
+                    "        I worked in the reserves, evaluation -- by the way,"
+                ]
+            },
+            {
+                "time": "10:00:46",
+                "lineIndex": 217,
+                "lines": [
+                    "        for Chevron I worked 15 years in the reserves"
+                ]
+            },
+            {
+                "time": "10:00:48",
+                "lineIndex": 218,
+                "lines": [
+                    "        evaluation for all over the world."
+                ]
+            },
+            {
+                "time": "10:00:54",
+                "lineIndex": 219,
+                "lines": [
+                    "     CHAIRMAN:  Yes, but you're one person, a very skilled and"
+                ]
+            },
+            {
+                "time": "10:00:58",
+                "lineIndex": 220,
+                "lines": [
+                    "        expert person.  There are lots of people with"
+                ]
+            },
+            {
+                "time": "10:01:01",
+                "lineIndex": 221,
+                "lines": [
+                    "        expertise and they have to also be used in faraway"
+                ]
+            },
+            {
+                "time": "10:01:07",
+                "lineIndex": 222,
+                "lines": [
+                    "        countries.  I mean, this is a worldwide thing."
+                ]
+            },
+            {
+                "time": "10:01:11",
+                "lineIndex": 223,
+                "lines": [
+                    "     A. Absolutely.  Thank you, sir."
+                ]
+            },
+            {
+                "time": "10:01:13",
+                "lineIndex": 224,
+                "lines": [
+                    "            So P1 reserves we have to be very accurate."
+                ]
+            },
+            {
+                "time": "10:01:19",
+                "lineIndex": 225,
+                "lines": [
+                    "            P2 frankly speaking, Security and Exchange"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 10,
+        "page": 10,
+        "data": [
+            {
+                "time": "10:01:21",
+                "lineIndex": 226,
+                "lines": [
+                    "        Commission in the US."
+                ]
+            },
+            {
+                "time": "10:01:24",
+                "lineIndex": 227,
+                "lines": [
+                    "            Does not even pay attention to.  They're not going"
+                ]
+            },
+            {
+                "time": "10:01:29",
+                "lineIndex": 228,
+                "lines": [
+                    "        to check you on that.  But on P1 if you're wrong, they"
+                ]
+            },
+            {
+                "time": "10:01:35",
+                "lineIndex": 229,
+                "lines": [
+                    "        are going to take care of us.  So we got to be just"
+                ]
+            },
+            {
+                "time": "10:01:39",
+                "lineIndex": 230,
+                "lines": [
+                    "        right in P1."
+                ]
+            },
+            {
+                "time": "10:01:41",
+                "lineIndex": 231,
+                "lines": [
+                    "            So now let's move to project management process,"
+                ]
+            },
+            {
+                "time": "10:01:47",
+                "lineIndex": 232,
+                "lines": [
+                    "        PMP, to create maximum value."
+                ]
+            },
+            {
+                "time": "10:01:52",
+                "lineIndex": 233,
+                "lines": [
+                    "            You may recall this picture comes from WRMP.  This"
+                ]
+            },
+            {
+                "time": "10:01:57",
+                "lineIndex": 234,
+                "lines": [
+                    "        picture is used by Chevron, in the Gorgon field, in"
+                ]
+            },
+            {
+                "time": "10:02:02",
+                "lineIndex": 235,
+                "lines": [
+                    "        the Jansz field of the gas production."
+                ]
+            },
+            {
+                "time": "10:02:07",
+                "lineIndex": 236,
+                "lines": [
+                    "            What this picture shows is that it's not possible"
+                ]
+            },
+            {
+                "time": "10:02:09",
+                "lineIndex": 237,
+                "lines": [
+                    "        to find the value on the vertical axis on the"
+                ]
+            },
+            {
+                "time": "10:02:13",
+                "lineIndex": 238,
+                "lines": [
+                    "        horizontal, says from phase 1 to phase 5.  Just"
+                ]
+            },
+            {
+                "time": "10:02:36",
+                "lineIndex": 239,
+                "lines": [
+                    "        like this."
+                ]
+            },
+            {
+                "time": "10:02:38",
+                "lineIndex": 240,
+                "lines": [
+                    " 7   Q. What it shows is that if you define the project"
+                ]
+            },
+            {
+                "time": "10:02:45",
+                "lineIndex": 241,
+                "lines": [
+                    "        properly, and if you execute the project properly, you"
+                ]
+            },
+            {
+                "time": "10:02:55",
+                "lineIndex": 242,
+                "lines": [
+                    "        create tremendous value.  When we are unable to define"
+                ]
+            },
+            {
+                "time": "10:03:01",
+                "lineIndex": 243,
+                "lines": [
+                    "        the project clearly, on top of that when we execute"
+                ]
+            },
+            {
+                "time": "10:03:10",
+                "lineIndex": 244,
+                "lines": [
+                    "        the project also not so properly, we get a poor result"
+                ]
+            },
+            {
+                "time": "10:03:22",
+                "lineIndex": 245,
+                "lines": [
+                    "        like estimate D."
+                ]
+            },
+            {
+                "time": "10:03:27",
+                "lineIndex": 246,
+                "lines": [
+                    "     A. In a case like Ormen Lange in Norway, which we have"
+                ]
+            },
+            {
+                "time": "10:03:36",
+                "lineIndex": 247,
+                "lines": [
+                    "        referred in our statements before, when we see there"
+                ]
+            },
+            {
+                "time": "10:03:42",
+                "lineIndex": 248,
+                "lines": [
+                    "        is that they had forecasted --"
+                ]
+            },
+            {
+                "time": "10:03:46",
+                "lineIndex": 249,
+                "lines": [
+                    " 8   Q. And now we're talking about Shell and State Oil"
+                ]
+            },
+            {
+                "time": "10:03:50",
+                "lineIndex": 250,
+                "lines": [
+                    "        managing that project in Norway, their forecast was"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 11,
+        "page": 11,
+        "data": [
+            {
+                "time": "10:03:55",
+                "lineIndex": 251,
+                "lines": [
+                    "        12 TCF -- very similar capital expenditures."
+                ]
+            },
+            {
+                "time": "10:04:02",
+                "lineIndex": 252,
+                "lines": [
+                    "            They have already produced 10 TCF.  That was"
+                ]
+            },
+            {
+                "time": "10:04:04",
+                "lineIndex": 253,
+                "lines": [
+                    "        a wonderful performance -- wonderful performance."
+                ]
+            },
+            {
+                "time": "10:04:15",
+                "lineIndex": 254,
+                "lines": [
+                    "            Somebody that you like to give a grade of A."
+                ]
+            },
+            {
+                "time": "10:04:23",
+                "lineIndex": 255,
+                "lines": [
+                    " 9   Q. Look at the situation we face here.  Poor project"
+                ]
+            },
+            {
+                "time": "10:04:29",
+                "lineIndex": 256,
+                "lines": [
+                    "        definition."
+                ]
+            },
+            {
+                "time": "10:04:31",
+                "lineIndex": 257,
+                "lines": [
+                    "     A. Poor execution."
+                ]
+            },
+            {
+                "time": "10:04:35",
+                "lineIndex": 258,
+                "lines": [
+                    " 10  Q. Our forecast of 10 TCF, 10.03, management committee"
+                ]
+            },
+            {
+                "time": "10:04:40",
+                "lineIndex": 259,
+                "lines": [
+                    "        report, a consensus, then result is 2.3."
+                ]
+            },
+            {
+                "time": "10:04:51",
+                "lineIndex": 260,
+                "lines": [
+                    "     SIR BERNARD RIX:  Can I just say that -- no.  So you can"
+                ]
+            },
+            {
+                "time": "10:04:54",
+                "lineIndex": 261,
+                "lines": [
+                    "        just ignore me."
+                ]
+            },
+            {
+                "time": "10:04:58",
+                "lineIndex": 262,
+                "lines": [
+                    "     WITNESS:  Please."
+                ]
+            },
+            {
+                "time": "10:04:59",
+                "lineIndex": 263,
+                "lines": [
+                    "     MR SALVE:  I was, in fact, going to point out it's almost"
+                ]
+            },
+            {
+                "time": "10:05:02",
+                "lineIndex": 264,
+                "lines": [
+                    "        5 past 11.00.  We are on page 16 and he has 45 pages"
+                ]
+            },
+            {
+                "time": "10:05:07",
+                "lineIndex": 265,
+                "lines": [
+                    "        yet to go on to.  How can he finish in time."
+                ]
+            },
+            {
+                "time": "10:05:10",
+                "lineIndex": 266,
+                "lines": [
+                    "     SIR BERNARD RIX:  I was going to wait until 11.15, which"
+                ]
+            },
+            {
+                "time": "10:05:13",
+                "lineIndex": 267,
+                "lines": [
+                    "        is an hour."
+                ]
+            },
+            {
+                "time": "10:05:19",
+                "lineIndex": 268,
+                "lines": [
+                    "     CHAIRMAN:  This is very interesting and very useful,"
+                ]
+            },
+            {
+                "time": "10:05:22",
+                "lineIndex": 269,
+                "lines": [
+                    "        Prof Thakur."
+                ]
+            },
+            {
+                "time": "10:05:24",
+                "lineIndex": 270,
+                "lines": [
+                    "            But we have to keep our eye on the clock, because"
+                ]
+            },
+            {
+                "time": "10:05:28",
+                "lineIndex": 271,
+                "lines": [
+                    "        we only have three days to hear very distinguished"
+                ]
+            },
+            {
+                "time": "10:05:34",
+                "lineIndex": 272,
+                "lines": [
+                    "        experts being cross-examined.  Therefore, if you could"
+                ]
+            },
+            {
+                "time": "10:05:40",
+                "lineIndex": 273,
+                "lines": [
+                    "        find a way -- in consultation with Prof Kondapi -- to"
+                ]
+            },
+            {
+                "time": "10:05:47",
+                "lineIndex": 274,
+                "lines": [
+                    "        squeeze it."
+                ]
+            },
+            {
+                "time": "10:05:49",
+                "lineIndex": 275,
+                "lines": [
+                    "            You've got over some very important points, but"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 12,
+        "page": 12,
+        "data": [
+            {
+                "time": "10:05:52",
+                "lineIndex": 276,
+                "lines": [
+                    "        we've got to watch the clock which I'm sure you"
+                ]
+            },
+            {
+                "time": "10:05:54",
+                "lineIndex": 277,
+                "lines": [
+                    "        understand?"
+                ]
+            },
+            {
+                "time": "10:05:58",
+                "lineIndex": 278,
+                "lines": [
+                    "     A. Thank you, sir.  I will try to follow."
+                ]
+            },
+            {
+                "time": "10:06:03",
+                "lineIndex": 279,
+                "lines": [
+                    "            But most important thing is that you have the"
+                ]
+            },
+            {
+                "time": "10:06:05",
+                "lineIndex": 280,
+                "lines": [
+                    "        slides to read and all the things that I'm planning to"
+                ]
+            },
+            {
+                "time": "10:06:12",
+                "lineIndex": 281,
+                "lines": [
+                    "        convey, they are documented in the slides.  So I'll go"
+                ]
+            },
+            {
+                "time": "10:06:16",
+                "lineIndex": 282,
+                "lines": [
+                    "        a little bit faster."
+                ]
+            },
+            {
+                "time": "10:06:20",
+                "lineIndex": 283,
+                "lines": [
+                    "            So now we look at the gas reserve field"
+                ]
+            },
+            {
+                "time": "10:06:26",
+                "lineIndex": 284,
+                "lines": [
+                    "        development planning."
+                ]
+            },
+            {
+                "time": "10:06:32",
+                "lineIndex": 285,
+                "lines": [
+                    " 11  Q. We are aware of these things already very well, so I'm"
+                ]
+            },
+            {
+                "time": "10:06:35",
+                "lineIndex": 286,
+                "lines": [
+                    "        going to, for the time being, I'm going to skip this"
+                ]
+            },
+            {
+                "time": "10:06:39",
+                "lineIndex": 287,
+                "lines": [
+                    "        slide.  I'm going to go to next slide, which is"
+                ]
+            },
+            {
+                "time": "10:06:43",
+                "lineIndex": 288,
+                "lines": [
+                    "        regarding recovery factor calculation."
+                ]
+            },
+            {
+                "time": "10:06:50",
+                "lineIndex": 289,
+                "lines": [
+                    "     A. Recovery factor calculation for a gasfield or any"
+                ]
+            },
+            {
+                "time": "10:06:54",
+                "lineIndex": 290,
+                "lines": [
+                    "        hydrocarbon field has to be consistent with the drive"
+                ]
+            },
+            {
+                "time": "10:07:00",
+                "lineIndex": 291,
+                "lines": [
+                    "        mechanism."
+                ]
+            },
+            {
+                "time": "10:07:02",
+                "lineIndex": 292,
+                "lines": [
+                    "            If you have depletion drive:"
+                ]
+            },
+            {
+                "time": "10:07:05",
+                "lineIndex": 293,
+                "lines": [
+                    "            \"You are going to get high recovery.  If you got"
+                ]
+            },
+            {
+                "time": "10:07:10",
+                "lineIndex": 294,
+                "lines": [
+                    "        water influx, there is no way you're going to get"
+                ]
+            },
+            {
+                "time": "10:07:15",
+                "lineIndex": 295,
+                "lines": [
+                    "        85 per cent recovery -- no way.  Technically"
+                ]
+            },
+            {
+                "time": "10:07:19",
+                "lineIndex": 296,
+                "lines": [
+                    "        impossible.\""
+                ]
+            },
+            {
+                "time": "10:07:22",
+                "lineIndex": 297,
+                "lines": [
+                    "            So what I have done here is -- and this is what"
+                ]
+            },
+            {
+                "time": "10:07:25",
+                "lineIndex": 298,
+                "lines": [
+                    "        AIDP mentions when they use a value of 85 per cent."
+                ]
+            },
+            {
+                "time": "10:07:29",
+                "lineIndex": 299,
+                "lines": [
+                    "        Then they are going to look at the UK publications on"
+                ]
+            },
+            {
+                "time": "10:07:38",
+                "lineIndex": 300,
+                "lines": [
+                    "        oil and gas recovery and they list the field with"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 13,
+        "page": 13,
+        "data": [
+            {
+                "time": "10:07:42",
+                "lineIndex": 301,
+                "lines": [
+                    "        depletion, dry gas reservoirs recoveries, number of"
+                ]
+            },
+            {
+                "time": "10:07:47",
+                "lineIndex": 302,
+                "lines": [
+                    "        fields on the vertical axis, on the horizontal axis is"
+                ]
+            },
+            {
+                "time": "10:07:51",
+                "lineIndex": 303,
+                "lines": [
+                    "        the recovery range."
+                ]
+            },
+            {
+                "time": "10:07:55",
+                "lineIndex": 304,
+                "lines": [
+                    "            So you're going to get some reservoirs with"
+                ]
+            },
+            {
+                "time": "10:07:58",
+                "lineIndex": 305,
+                "lines": [
+                    "        85 per cent recovery, but you're going to get lot of"
+                ]
+            },
+            {
+                "time": "10:08:03",
+                "lineIndex": 306,
+                "lines": [
+                    "        reservoirs with 35, 45, 55, 65 recoveries and they are"
+                ]
+            },
+            {
+                "time": "10:08:12",
+                "lineIndex": 307,
+                "lines": [
+                    "        without water influx."
+                ]
+            },
+            {
+                "time": "10:08:16",
+                "lineIndex": 308,
+                "lines": [
+                    " 12  Q. So when you add water influx to it, these curves,"
+                ]
+            },
+            {
+                "time": "10:08:21",
+                "lineIndex": 309,
+                "lines": [
+                    "        these graphs, they shift to the left."
+                ]
+            },
+            {
+                "time": "10:08:28",
+                "lineIndex": 310,
+                "lines": [
+                    "            Where do we stand in D1-D3?"
+                ]
+            },
+            {
+                "time": "10:08:36",
+                "lineIndex": 311,
+                "lines": [
+                    "     A. I give you an example analogy of the Ram Powell field,"
+                ]
+            },
+            {
+                "time": "10:08:45",
+                "lineIndex": 312,
+                "lines": [
+                    "        which has been utilised by the claimant also in the"
+                ]
+            },
+            {
+                "time": "10:08:48",
+                "lineIndex": 313,
+                "lines": [
+                    "        Gulf of Mexico.  The field was discovered in 1985."
+                ]
+            },
+            {
+                "time": "10:08:56",
+                "lineIndex": 314,
+                "lines": [
+                    "        Please kindly refer to those papers."
+                ]
+            },
+            {
+                "time": "10:08:59",
+                "lineIndex": 315,
+                "lines": [
+                    " 13  Q. Which are being provided?"
+                ]
+            },
+            {
+                "time": "10:09:02",
+                "lineIndex": 316,
+                "lines": [
+                    "     A. And they had similar issues of thin-bedded reservoirs"
+                ]
+            },
+            {
+                "time": "10:09:09",
+                "lineIndex": 317,
+                "lines": [
+                    "        and they were not sure if they are going to be"
+                ]
+            },
+            {
+                "time": "10:09:13",
+                "lineIndex": 318,
+                "lines": [
+                    "        contributing.  What did they do?"
+                ]
+            },
+            {
+                "time": "10:09:19",
+                "lineIndex": 319,
+                "lines": [
+                    " 14  Q. They did early production testing and found gas"
+                ]
+            },
+            {
+                "time": "10:09:21",
+                "lineIndex": 320,
+                "lines": [
+                    "        and oil."
+                ]
+            },
+            {
+                "time": "10:09:24",
+                "lineIndex": 321,
+                "lines": [
+                    "     A. And determined how these reservoirs are going to"
+                ]
+            },
+            {
+                "time": "10:09:29",
+                "lineIndex": 322,
+                "lines": [
+                    "        contribute."
+                ]
+            },
+            {
+                "time": "10:09:31",
+                "lineIndex": 323,
+                "lines": [
+                    " 15  Q. Now, I'm going to bring an example from Angola, which"
+                ]
+            },
+            {
+                "time": "10:09:36",
+                "lineIndex": 324,
+                "lines": [
+                    "        is also an oil and gas reservoir.  It has oil, it also"
+                ]
+            },
+            {
+                "time": "10:09:43",
+                "lineIndex": 325,
+                "lines": [
+                    "        has gas?"
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 14,
+        "page": 14,
+        "data": [
+            {
+                "time": "10:09:45",
+                "lineIndex": 326,
+                "lines": [
+                    "     A. And I would like to request you to look at bullet 2,"
+                ]
+            },
+            {
+                "time": "10:09:53",
+                "lineIndex": 327,
+                "lines": [
+                    "        that using an early production system here, they were"
+                ]
+            },
+            {
+                "time": "10:09:58",
+                "lineIndex": 328,
+                "lines": [
+                    "        able to test the productivity and that productivity"
+                ]
+            },
+            {
+                "time": "10:10:04",
+                "lineIndex": 329,
+                "lines": [
+                    "        provided them information regarding reservoir"
+                ]
+            },
+            {
+                "time": "10:10:08",
+                "lineIndex": 330,
+                "lines": [
+                    "        continuity."
+                ]
+            },
+            {
+                "time": "10:10:11",
+                "lineIndex": 331,
+                "lines": [
+                    " 16  Q. And they mention in their paper it should be noted"
+                ]
+            },
+            {
+                "time": "10:10:16",
+                "lineIndex": 332,
+                "lines": [
+                    "        that these insights couldn't have been obtained by any"
+                ]
+            },
+            {
+                "time": "10:10:21",
+                "lineIndex": 333,
+                "lines": [
+                    "        other method than by producing the reservoir.  That's"
+                ]
+            },
+            {
+                "time": "10:10:27",
+                "lineIndex": 334,
+                "lines": [
+                    "        the point I like to mention?"
+                ]
+            },
+            {
+                "time": "10:10:29",
+                "lineIndex": 335,
+                "lines": [
+                    "     A. I wish we had produced the reservoir.  I wish we had"
+                ]
+            },
+            {
+                "time": "10:10:32",
+                "lineIndex": 336,
+                "lines": [
+                    "        done some."
+                ]
+            },
+            {
+                "time": "10:10:34",
+                "lineIndex": 337,
+                "lines": [
+                    "    (10.10 am)"
+                ]
+            },
+            {
+                "time": "10:10:36",
+                "lineIndex": 338,
+                "lines": [
+                    "             (The hearing adjourned until 10 am on the following day)"
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 339,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 340,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 341,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 342,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 343,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 344,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 345,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 346,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 347,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 348,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 349,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 350,
+                "lines": [
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "msg": 15,
+        "page": 15,
+        "data": [
+            {
+                "time": null,
+                "lineIndex": 351,
+                "lines": [
+                    "                                     I N D E X"
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 352,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 353,
+                "lines": [
+                    "           MR JOHN SMITH ........................................1"
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 354,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 355,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 356,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 357,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 358,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 359,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 360,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 361,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 362,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 363,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 364,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 365,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 366,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 367,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 368,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 369,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 370,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 371,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 372,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 373,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 374,
+                "lines": [
+                    ""
+                ]
+            },
+            {
+                "time": null,
+                "lineIndex": 375,
+                "lines": [
+                    ""
+                ]
+            }
+        ]
+    }
+]

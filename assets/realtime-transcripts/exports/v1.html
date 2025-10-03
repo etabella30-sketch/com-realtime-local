@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: sans-serif !important;
+    }
+
+
+    body {
+      background-color: #fff;
+    }
+
+    .page-break {
+      page-break-before: always;
+    }
+
+    .page {
+      padding: 60px 60px 40px;
+      position: relative;
+      min-height: 1340px;
+    }
+
+    .container {
+      width: 100%;
+      padding: 0 49px 36px 0;
+      /* min-height: 29.7cm;
+        height: 29.7cm; */
+    }
+
+    .content-table {
+      width: 100%;
+    }
+
+    .sidebar {
+      background-color: #ff3d00;
+      width: 109px;
+      height: 447px;
+    }
+
+    .main-content {
+      padding-top: 300px;
+      padding-left: 20px;
+      vertical-align: top;
+      font: 600 10px Open Sans, sans-serif;
+      color: #4f4f4f;
+    }
+
+    .case-name {
+      color: #ff3d00;
+      letter-spacing: -0.6px;
+      font: 30px Open Sans, sans-serif;
+      margin: 0;
+    }
+
+    .document-type {
+      margin-top: 4px;
+      font: 12px/133% Open Sans, sans-serif;
+    }
+
+    .document-info {
+      font: 400 10px/12.5px Open Sans, sans-serif;
+      margin-top: 4px;
+    }
+
+    .spacer {
+      background-color: #fff;
+      margin-top: 4px;
+      height: 13px;
+    }
+
+    .export-info {
+      font: 700 10px/14px Open Sans, sans-serif;
+      margin-top: 4px;
+    }
+
+    .footer {
+      padding-top: 700px;
+      width: 141px;
+      font: 400 12px/133% Open Sans, sans-serif;
+      color: #ff3d00;
+      float: right;
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto;
+      width: 105px;
+      max-width: 100%;
+    }
+
+    .powered-by {
+      font-family: Open Sans, sans-serif;
+      margin-top: 24px;
+      text-align: center;
+    }
+
+    .titlepage {
+      position: relative;
+      min-height: 1240px;
+      /* 1340px - 60px top padding - 40px bottom padding */
+    }
+
+    .titlepage .text-1 {
+      max-width: 50%;
+      margin-bottom: 20px;
+    }
+
+    .titlepage .text-center {
+      text-align: center;
+    }
+
+    .titlepage p {
+      font-size: 10px;
+      line-height: 2;
+      margin-bottom: 20px;
+    }
+
+    .text-end {
+      text-align: end;
+    }
+
+    .titlepage .text-start {
+      text-align: start;
+    }
+
+    .titlepage .divider {
+      height: 1px;
+      width: 50%;
+      background-color: #000;
+      margin: 20px auto;
+    }
+
+    .titlepage .msg p:first-child {
+      margin-bottom: 20px;
+    }
+
+    .titlepage .msg {
+      width: 75%;
+      margin: 0 auto;
+      min-height: 116px;
+    }
+
+    .titlepage .sidespace {
+      padding: 0 50px;
+      text-align: center;
+    }
+
+    .titlepage .sidespace>* {
+      margin-bottom: 20px;
+    }
+
+    .titlepage .transriptby {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+
+    .titlepage .maindivider {
+      position: absolute;
+      bottom: 0px;
+      left: 60px;
+      right: 60px;
+      height: 1px;
+      background-color: #000;
+    }
+
+
+    .container-inline-block {
+      font-size: 0;
+      /* Remove space between inline-block elements */
+    }
+
+    .container-inline-block .box {
+      display: inline-block;
+      width: 25%;
+      font-size: 16px;
+      /* Reset font size for content */
+      vertical-align: top;
+    }
+
+    .anothead {
+      padding: 10px 24px;
+      background-color: #4f4f4f;
+      color: #fff;
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    .data-header {
+      padding: 10px 24px;
+      background-color: #6b6b6b;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+
+    .heading {
+      padding: 10px 24px;
+      color: #4f4f4f;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+
+    .p-0 {
+      padding: 0 !important;
+    }
+
+    .p-3 {
+      padding: 20px !important;
+    }
+
+    .mb-1 {
+      margin-bottom: 5px;
+    }
+
+    .mb-2 {
+      margin-bottom: 10px;
+    }
+
+    .mb-3 {
+      margin-bottom: 20px;
+    }
+
+    .tabbody .pageno {
+      text-decoration: underline;
+      color: #ff3c00;
+      cursor: pointer;
+    }
+
+    .tabhead .pageno,
+    .tabbody .pageno {
+      width: 5%;
+    }
+
+    .tabhead .source,
+    .tabbody .source {
+      width: 30%;
+    }
+
+    .tabhead .note,
+    .tabbody .note {
+      width: 30%;
+    }
+
+    .tabhea .issue,
+    .tabbody .issue {
+      width: 33%;
+    }
+
+    .tabbody div {
+      vertical-align: top;
+    }
+
+    .tabhead div,
+    .tabbody div {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 500;
+      color: #4f4f4f;
+      line-height: 1.5;
+      letter-spacing: 0.2px;
+    }
+
+    .tabbody {
+      background-color: #f1f1f1;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    .tabhead {
+      background-color: #c4c4c4;
+      border-radius: 20px;
+    }
+
+    .tabhead,
+    .tabbody {
+      padding: 5px 10px 7px;
+    }
+
+    .issuewrap {
+      width: 100%;
+    }
+
+    .issuewrap .impact {
+      width: 10%;
+    }
+
+    .issuewrap .rel {
+      width: 25%;
+    }
+
+
+    .issuewrap .name .text {
+      padding-left: 5px;
+    }
+
+    .issuewrap .name {
+      width: 60%;
+    }
+
+    .tabhead .source,
+    .tabbody .source {
+      width: 30%;
+    }
+
+    .issuebar {
+      padding: 2px 2px;
+      border-radius: 10px;
+      background: red;
+    }
+
+    .relspn {
+      padding: 2px 5px;
+      background: white;
+      border-radius: 10px;
+    }
+
+
+    .line-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .line-no {
+      background: #eeeeee;
+      color: #747474;
+      padding: 0 10px;
+      width: 136px;
+      font-size: 12px;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .line-text {
+      color: #2a2929;
+      padding: 6px 10px;
+      font-size: 12px;
+      height: 36px;
+    }
+
+    .highlight {
+      background-color: yellow;
+    }
+
+    .page-header {
+      font-size: 10px;
+      width: 100%;
+    }
+
+    .page-header td {
+      vertical-align: top;
+      padding-bottom: 20px;
+    }
+
+    .head-left {
+      width: 50%;
+    }
+
+    .head-right {
+      width: 50%;
+      text-align: right;
+    }
+
+    .maindivider {
+      height: 2px;
+      width: 100%;
+      background-color: #000;
+      margin: 10px auto;
+    }
+
+    .text-end {
+      text-align: end;
+    }
+
+    .data-footer {
+      position: absolute;
+      bottom: -60px;
+      left: 60px;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <table class="container">
+    <tr>
+      <td>
+        <table class="content-table">
+          <tr>
+            <td class="sidebar"></td>
+            <td class="main-content">
+              <h1 class="case-name">Session 27-06-2024</h1>
+              <p class="document-type">Second Defendant's Supporting Document</p>
+              <p class="document-info">
+                <span style="font-size: 12px; line-height: 6px"></span>
+              </p>
+              <div class="spacer"></div>
+              <p class="export-info">
+                Exported on: Jul 10, 2024 <br>
+                By Amjad Raza <br>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="footer">
+          <img loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/7e48a33acb329eae58739c8cf3f6e9930036d154e2ba6d2090c965edf5e5d129?apiKey=4da8a55b5b594231a69fd5cda35e0ae4&"
+            class="logo" alt="eTabella logo">
+          <p class="powered-by">Powered by eTabella.com</p>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <div class="titlepage page page-break">
+    <div class="maindivider"></div>
+    <p class="text-1">case description case description case description case description case description
+    </p>
+    <div class="divider"></div>
+    <div class="sidespace">
+      <p class="text-start betweeen capitalize">Between</p>
+      <p>
+        <span>case claiment case claiment case claiment case claiment case claimentcase claiment case claiment</span>
+      </p>
+      <p class="text-end">Claimant</p>
+      <p>-&nbsp;&nbsp;and&nbsp;&nbsp;-</p>
+      <p>case res case res case res case res case res case res case res</p>
+      <p class="text-end">Respondent</p>
+      <div class="spacer"></div>
+      <div class="divider"></div>
+      <p>-&nbsp;&nbsp;before&nbsp;&nbsp;- </p>
+      <p>SD
+      </p>
+      <p>Thursday , 03 Oct 2024
+      </p>
+
+      <div class="divider"></div>
+
+      <div class="text-start msg">
+        <p>
+        </p>
+        <p>
+        </p>
+      </div>
+    </div>
+    <p class="text-center transriptby">
+      Transcript produced by lloydmichaux.com<br />
+    </p>
+    <div class="maindivider"></div>
+  </div>
+
+
+
+  <div class="page page-break p-0">
+    <div class="anothead mb-3">Index</div>
+    <div class="heading">Q-Mark</div>
+    <div class="p-3">
+      <div class="tabhead">
+        <div class="pageno">Page</div>
+        <div class="source">Source text</div>
+        <div class="note">Note</div>
+        <div class="issue">Issues</div>
+      </div>
+
+      <div class="tabbody">
+        <div class="pageno">10</div>
+        <div class="source">The Indicative Hearing Schedule is also subject
+          to any changes that the Tribunal may deem
+          necessary or appropriate to make during the
+          Hearings in the interests of justice and the
+          overall conduct of a fair hearing. In particular,
+          the Tribunal may adjust the schedule of the He</div>
+        <div class="note">The Indicative Hearing Schedule is also subject
+          to any changes that the Tribunal may deem
+          necessary or appropriate to make during the
+          Hearings in the interests of justice and the
+          overall conduct of a fair hearing. In particular,
+          the Tribunal may adjust the schedule of the He</div>
+        <div class="issue">
+          <div class="issuewrap">
+            <div class="name"> <span class="issuebar"></span> <span class="text">Red Issue</span> </div>
+            <div class="rel"> <span class="relspn">Critcal</span> </div>
+            <div class="impact"><img width="20px" src="18.png"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="page page-break">
+    <table class="page-header">
+      <tr>
+        <td class="head-left">
+          <p>IN THE MATTER OF AN ARBITRATION UNDER THE ARBITRATION RULES OF THE INTERNATIONAL CHAMBER OF COMMERCE ICC
+            Case 26600/HTG</p>
+        </td>
+        <td class="head-right">
+          <p class="text-end">Day 1</p>
+          <p class="text-end">26 June 2023</p>
+        </td>
+      </tr>
+    </table>
+    <header class="data-header">Page No. 1</header>
+    <table class="line-table">
+      <tr>
+        <td class="line-no">
+          <span>1</span>
+          <span>09:09:28</span>
+        </td>
+        <td class="line-text">Test test.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>2</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3Good
+          morning. This is day 3, testing micronumber 1.Good morning. This is day 3Good morning. This is day 3, testing
+          micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>3</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>4</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>5</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>6</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>7</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>8</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>9</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>10</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>1</span>
+          <span>09:09:28</span>
+        </td>
+        <td class="line-text">Test test.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>2</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>3</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>4</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>5</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>6</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>7</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>8</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>9</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>20</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>21</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>22</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>23</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>24</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+      <tr>
+        <td class="line-no">
+          <span>25</span>
+          <span>09:10:40</span>
+        </td>
+        <td class="line-text">Good morning. This is day 3, testing micronumber 1.Good morning. This is day 3, testing
+          micronumber 1.</td>
+      </tr>
+
+      <!-- Add more rows for each line -->
+    </table>
+    <table class="page-header data-footer ">
+      <tr>
+        <td colspan="2">
+          <div class="maindivider"></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="head-left">
+          <p>Lloyd Michaux (ask@lloydmichaux.com)</p>
+          <p>Asia-Pacific | Middle East | India</p>
+        </td>
+        <td class="head-right">
+          <p class="text-end">Daily Transcript Service</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+
+
+  </div>
+</body>
+
+</html>
+</body>
+
+</html>
